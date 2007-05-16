@@ -1,0 +1,236 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+<body>
+
+<div metal:fill-slot="main" tal:define="errors options/state/getErrors; text python: here.getMmListIntro()">
+
+    <div metal:use-macro="here/document_actions/macros/document_actions">
+        Document actions (print, sendto etc)
+    </div>
+
+    <h1 tal:content="object_title" class="documentFirstHeading">
+      Title or id
+    </h1>
+
+    <tal:block condition="python: not (request.get('subscribed') or (request.get('unsubscribed')))">
+
+      <tal:block condition="python: not (request.get('unsubscribe') or request.get('subscribe'))">
+        <p class="documentDescription"
+           tal:content="here/Description"
+           tal:condition="here/Description">
+            Description
+        </p>
+    
+        <p tal:condition="python: not text and is_editable"
+           i18n:translate="no_body_text"
+           class="discreet">
+            This item does not have any introductory text, click the edit tab to change it.
+        </p>
+    
+        <div class="stx"
+             tal:condition="text"
+             tal:attributes="class python:test(here.Format() in ('text/structured',
+                                                   'text/x-rst', ), 'stx', 'plain')">
+            <div tal:replace="structure text" />
+        </div>
+      </tal:block>
+  
+      <form name="subscribe_form"
+            action="#" 
+            method="post" 
+            tal:attributes="action string:${here/getId}"
+            tal:condition="not: exists: request/form.button.unsubscribe" >
+          
+          <fieldset>
+      
+              <legend>List Subscribe</legend>
+  
+              <div class="field"
+                   tal:define="error errors/subemail | nothing;
+                               subemail request/subemail | nothing"
+                   tal:attributes="class python:test(error, 'field error', 'field')">
+      
+                  <label for="subemail">E-Mail Address</label>
+                  
+                  <span class="fieldRequired" title="Required">(Required)</span>
+      
+                  <div class="formHelp">
+                    Enter an e-mail address. This is the address which will receive list mailings.
+                  </div>
+  
+                  <div tal:content="error">Validation error output</div>
+      
+                  <input type="text"
+                         id="subemail"
+                         name="subemail"
+                         size="30"
+                         value=""
+                         tabindex=""
+                         tal:attributes="value subemail;
+                                         tabindex tabindex/next;"
+                         />
+  
+              </div>
+  
+              <div class="field"
+                   tal:condition="here/mmFullNameReq | nothing"
+                   tal:define="error errors/realname | nothing;
+                               realname request/realname | nothing;"
+                   tal:attributes="class python:test(error, 'field error', 'field')">
+      
+                  <label for="realname">Your Name</label>
+                  
+                  <span tal:condition="python: here.mmFullNameReq=='mmfn_required'" class="fieldRequired" title="Required">(Required)</span>
+      
+                  <div class="formHelp">
+                    Identifies you to the list manager.
+                    <span tal:condition="python: here.mmFullNameReq=='mmfn_required'">Required for subscription approval.</span>
+                  </div>
+  
+                  <div tal:content="error">Validation error output</div>
+      
+                  <input type="text"
+                         id="realname"
+                         name="realname"
+                         size="30"
+                         value=""
+                         tabindex=""
+                         tal:attributes="value realname;
+                                         tabindex tabindex/next;"
+                         />
+  
+              </div>
+  
+              <div class="formControls"> 
+                      <input class="context" 
+                             tabindex=""
+                             type="submit" 
+                             name="form.button.subscribe" 
+                             value="Subscribe" 
+                             tal:attributes="tabindex tabindex/next;" /> 
+              </div>
+          </fieldset>
+  
+          <input type="hidden" name="subscribe" value="1" />
+          <input type="hidden" name="form.submitted" value="1" />
+      </form>
+  
+      <form name="unsubscribe_form"
+            action="#" 
+            method="post" 
+            tal:attributes="action string:${here/getId}"
+            tal:condition="not: exists: request/form.button.subscribe" >
+          
+          <fieldset>
+      
+              <legend>List Unsubscribe</legend>
+  
+              <div class="field"
+                   tal:define="error errors/unsubemail | nothing;
+                               unsubemail request/unsubemail | nothing;"
+                   tal:attributes="class python:test(error, 'field error', 'field')">
+      
+                  <label for="unsubemail">E-Mail Address</label>
+                  
+                  <span class="fieldRequired" title="Required">(Required)</span>
+      
+                <div class="formHelp">
+                  Enter the e-mail address under which you are currently subscribed. Note that this
+                  address will need to exactly match the list database entry.
+                </div>
+  
+                  <div tal:content="error">Validation error output</div>
+      
+                  <input type="text"
+                         id="unsubemail"
+                         name="unsubemail"
+                         size="30"
+                         value=""
+                         tabindex=""
+                         tal:attributes="value unsubemail;
+                                         tabindex tabindex/next;"
+                         />
+  
+              </div>
+  
+              <div class="formControls"> 
+                      <input class="context" 
+                             tabindex=""
+                             type="submit" 
+                             name="form.button.unsubscribe" 
+                             value="Cancel My Subscription" 
+                             tal:attributes="tabindex tabindex/next;" /> 
+              </div>
+          </fieldset>
+  
+          <input type="hidden" name="unsubscribe" value="1" />
+          <input type="hidden" name="form.submitted" value="1" />
+      </form>
+
+      <tal:block condition="python: not (request.get('unsubscribe') or request.get('subscribe'))">
+        <h2>Managing your subscription</h2>
+        <p>
+          If you have a list subscription, you may manage it by visiting:
+        </p>
+        <blockquote tal:define="opa python:'%s/options/%s'%(here.mmWebServer.strip('/'),here.mmListName)"><a tal:content="opa" tal:attributes="href opa">#</a></blockquote>
+        <p>You may also e-mail the list manager at: <span tal:replace="structure python:here.spamProtect('%s-owner@%s'%(here.mmListName, here.mmServer))">#</span></p>
+        <p><strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers.</p>
+      </tal:block>
+      
+    </tal:block>
+
+    <tal:block condition="request/subscribed | request/unsubscribed | nothing">
+      <p>
+        Within the next few minutes you should receive an e-mail message with a subject line like:
+      </p>
+      <pre>Your confirmation is required to <span tal:replace="python: test(request.get('subscribed'),'join','leave')" /> the <span tal:replace="here/mmListName" /> mailing list</pre>
+
+      <p>To complete your subscription <span tal:condition="request/unsubscribed | nothing">cancellation</span> request, you must either:</p>
+      <ul>
+        <li>Reply to the message, following its instructions; or,</li>
+        <li>Visit the web page specified in the message.</li>
+      </ul>
+      <p>
+        This step is used to confirm that the subscription <span tal:condition="request/unsubscribed | nothing">cancellation</span> request was made with the authorization of the address owner.
+      </p>
+
+      <tal:block condition="request/subscribed | nothing">
+        <h3>If you don't receive a confirmation request e-mail</h3>
+        <p>
+          The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there.
+        </p>
+        <p>You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list.</p>
+        <h4>List Server Addresses:</h4>
+        <dl>
+          <dt>"Sender" for list mail</dt>
+          <dd tal:content="python:'%s-bounces@%s' % (here.mmListName, here.mmServer)"></dd>
+          <dt>"From" for subscription <span tal:condition="request/unsubscribed | nothing">cancellation</span> confirmation requests</dt>
+          <dd tal:content="python:'%s-confirm@%s' % (here.mmListName, here.mmServer)"></dd>
+        </dl>
+      
+        <h2>Managing your subscription</h2>
+        <p>
+          Once the subscription process has been complete, you may manage your subscription by visiting:
+        </p>
+        <blockquote tal:define="opa python:'%s/options/%s'%(here.mmWebServer.strip('/'),here.mmListName)"><a tal:content="opa" tal:attributes="href opa">#</a></blockquote>
+        <p>You may also e-mail the list manager at: <span tal:replace="structure python:here.spamProtect('%s-owner@%s'%(here.mmListName, here.mmServer))">#</span></p>
+      </tal:block>
+      
+      <tal:block condition="request/unsubscribed | nothing">
+        <h2>Difficulties Cancelling?</h2>
+        <p>
+          You may also cancel your subscription by visiting:
+        </p>
+        <blockquote tal:define="opa python:'%s/options/%s'%(here.mmWebServer.strip('/'),here.mmListName)"><a tal:content="opa" tal:attributes="href opa">#</a></blockquote>
+        <p>You may also e-mail the list manager at: <span tal:replace="structure python:here.spamProtect('%s-owner@%s'%(here.mmListName, here.mmServer))">#</span></p>
+        <p><strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers.</p>
+      </tal:block>
+      
+    </tal:block>
+        
+</div>
+
+</body>
+</html>

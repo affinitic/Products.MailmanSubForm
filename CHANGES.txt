@@ -1,0 +1,9 @@
+Version 0.3:
+
+- If subscriber names required, unsubscribes would not validate. Fixed. Thanks to Daniel J. Vreeman (djvreeman).
+
+Version 0.2:
+
+- Fixed encoding issue that resulted in sending base64 requests that Mailman can't parse.
+
+- Changed success prompts to match Mailman's newer (2.1.6) format.

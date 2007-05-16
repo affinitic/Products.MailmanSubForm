@@ -1,0 +1,7 @@
+[default]
+title=Process mmSubForm subscribe/unsubscribe
+proxy=Manager,Anonymous
+
+[actions]
+action.failure=redirect_to:string:mmSubForm_view
+action.success=redirect_to:string:mmSubForm_view

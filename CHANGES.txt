@@ -1,8 +1,15 @@
-Version 0.3:
+0.4 (svn/unreleased):
+
+- Merge message ids from submitted Dutch and Italian translation. This would have been
+ easy if I'd done the i18n message ids from the start. Thanks to Davide Moro (IT) and
+ atopia.nl (NL) (Sander van Geloven <sander@atopia.nl>) for working on both message ids
+ and translations. My apologies for the damage done to both translations by the merge.
+
+0.3:
 
 - If subscriber names required, unsubscribes would not validate. Fixed. Thanks to Daniel J. Vreeman (djvreeman).
 
-Version 0.2:
+0.2:
 
 - Fixed encoding issue that resulted in sending base64 requests that Mailman can't parse.
 

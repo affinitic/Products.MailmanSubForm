@@ -1,0 +1,338 @@
+# gettext messages for MailmanSubForm
+# Steve McMahon, steve@dcn.org, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: MailmanSubForm 0.4\n"
+"POT-Creation-Date: 2007-07-10 15:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: mailmansubform\n"
+
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 162, Column 22
+#.
+#. Orginal text:
+#. Cancel My Subscription
+msgid "cancel_action"
+msgstr ""
+
+#. Orginal text:
+#. Subscribe
+msgid "subscribe_action"
+msgstr ""
+
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.cpy:67
+msgid "Unable to send mail: ${exception}"
+msgstr ""
+
+#. Default: "Enter an e-mail address. This is the address which will receive list mailings."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "help_email_address"
+msgstr ""
+
+#. Default: "Enter the e-mail address under which you are currently subscribed. Note that this address will need to exactly match the list database entry."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "help_unsubscribe_email_address"
+msgstr ""
+
+#. Default: "Identifies you to the list manager."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "help_your_name"
+msgstr ""
+
+#. Default: "Description"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_description"
+msgstr ""
+
+#. Default: "Difficulties Cancelling?"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_difficulties_cancelling"
+msgstr ""
+
+#. Default: "E-Mail Address"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_email_address"
+msgstr ""
+
+#. Default: "If you don't receive a confirmation request e-mail"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_if_you_dont_receive_a_confirmation_request_email"
+msgstr ""
+
+#. Default: "List Server Addresses"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_list_server_addresses"
+msgstr ""
+
+#. Default: "List Subscribe"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_list_subscribe"
+msgstr ""
+
+#. Default: "List Unsubscribe"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_list_unsubscribe"
+msgstr ""
+
+#. Default: "Managing your subscription"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_managing_your_subscription"
+msgstr ""
+
+#. Default: "Your Name"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "label_your_name"
+msgstr ""
+
+#. Default: "This item does not have any introductory text, click the edit tab to change it."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "no_body_text"
+msgstr ""
+
+#. Default: "If you have a list subscription, you may manage it by visiting:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_if_you_have_list_subscription"
+msgstr ""
+
+#. Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_manage_visit_link"
+msgstr ""
+
+#. Default: "Please Note:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_please_note"
+msgstr ""
+
+#. Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_please_note_if_you_are_having_trouble_unsubscribing"
+msgstr ""
+
+#. Default: "Reply to the message, following its instructions; or,"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_reply_to_the_message"
+msgstr ""
+
+#. Default: "Required for subscription approval."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_required_for_subscription_approval"
+msgstr ""
+
+#. Default: "\"Sender\" for list mail"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_sender_for_list_mail"
+msgstr ""
+
+#. Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_the_confirmation_request_message"
+msgstr ""
+
+#. Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_this_step_is_used_to_confirm_cancel"
+msgstr ""
+
+#. Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_this_step_is_used_to_confirm_subscribe"
+msgstr ""
+
+#. Default: "To complete your subscription cancellation request, you must either:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_to_complete_your_cancellation"
+msgstr ""
+
+#. Default: "To complete your subscription request, you must either:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_to_complete_your_subscription"
+msgstr ""
+
+#. Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_trouble_unsubscribing"
+msgstr ""
+
+#. Default: "Visit the web page specified in the message."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_visit_the_web_page"
+msgstr ""
+
+#. Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_within_the_next_few_minutes"
+msgstr ""
+
+#. Default: "You may also cancel your subscription by visiting:"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_you_may_also_cancel_subscription_by_visiting"
+msgstr ""
+
+#. Default: "You may also e-mail the list manager at"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_you_may_also_email_the_list_manager_at"
+msgstr ""
+
+#. Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_you_may_need_to_add_the_list"
+msgstr ""
+
+#. Default: "Your confirmation is required to <span tal:replace=\"python: test(request.get('subscribed'),'join','leave')\"/> the <span tal:replace=\"here/mmListName\"/> mailing list"
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.cpt
+msgid "text_your_confirmation_is_required_to"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Mailman List Subscribe/Unsubscribe Form
+msgid "MailmanSubForm_label_mmLabel"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. 
+#.                         Sets up a form that may be used to attempt subscription to
+#.                         or unsubscription from a Mailman list.
+#.                         Actual subscribe/unsubscribe is handled by sending mail to
+#.                         the list request address.
+#.                     
+msgid "MailmanSubForm_help_mmLabel"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Mailman List Server
+msgid "MailmanSubForm_label_mmServer"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                     The host name of your Mailman list server. Subscribe/Unsubscribe
+#.                     requests will be sent to this server.
+#.                     
+msgid "MailmanSubForm_help_mmServer"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Mailman Web Server
+msgid "MailmanSubForm_label_mmWebServer"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. 
+#.                     The base URL of your Mailman list server. This should be the web address
+#.                     that precedes "listinfo" in the list info page address.
+#.                     
+msgid "MailmanSubForm_help_mmWebServer"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. List Name
+msgid "MailmanSubForm_label_mmListName"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. 
+#.                     The name of your Mailman list.
+#.                     
+msgid "MailmanSubForm_help_mmListName"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Subscriber Names
+msgid "MailmanSubForm_label_mmFullNameReq"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. 
+#.                 Do you wish to ask for, or require, subscriber names?
+#.             
+msgid "MailmanSubForm_help_mmFullNameReq"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Not Requested
+msgid "Not Requested"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Optional
+msgid "Optional"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. Required
+msgid "Required"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. 
+#.                 This text will display at the top of the subscribe/unsubscribe form.
+#.                 Use it to introduce your list.
+#.             
+msgid "MailmanSubForm_help_mmListIntro"
+msgstr ""
+
+#: file:MailmanSubForm/MailmanSubForm.py
+#.
+#. Orginal text:
+#. List Introduction
+msgid "MailmanSubForm_label_mmListIntro"
+msgstr ""
+
+# The following are in vocabularies
+
+msgid "Not Requested"
+msgstr ""
+
+msgid "Optional"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Confirm (subscriber must respond to test message)"
+msgstr ""
+
+msgid "Require approval (but no confirm)"
+msgstr ""
+
+msgid "Confirm and approve"
+msgstr ""

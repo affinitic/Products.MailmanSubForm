@@ -1,25 +1,24 @@
 from AccessControl import ClassSecurityInfo
 from Products.Archetypes.public import *
 from DateTime import DateTime
-from config import PROJECTNAME
+from config import PROJECTNAME, defaultServer, defaultWebServer
 from Products.ATContentTypes.configuration import zconf
 from Products.ATContentTypes.content.base import ATCTContent
 
-
-# adjust these to your Mailman environment:
-defaultServer    = "velocipede.dcn.davis.ca.us"
-defaultWebServer = "http://mailman.dcn.org/"
 
 schema = BaseSchema + Schema((
     BooleanField('mmLabel',
                  widget=LabelWidget(
                     label='Mailman List Subscribe/Unsubscribe Form',
+                    label_msgid='MailmanSubForm_label_mmLabel',
                     description="""
                         Sets up a form that may be used to attempt subscription to
                         or unsubscription from a Mailman list.
                         Actual subscribe/unsubscribe is handled by sending mail to
                         the list request address.
                     """,
+                    description_msgid='MailmanSubForm_help_mmLabel',
+                    i18n_domain='mailmansubform',
                     ),
                 ),
     StringField('mmServer',
@@ -28,10 +27,13 @@ schema = BaseSchema + Schema((
                 default=defaultServer,
                 widget=StringWidget(
                     label='Mailman List Server',
+                    label_msgid='MailmanSubForm_label_mmServer',
                     description="""
                     The host name of your Mailman list server. Subscribe/Unsubscribe
                     requests will be sent to this server.
                     """,                
+                    description_msgid='MailmanSubForm_help_mmServer',
+                    i18n_domain='mailmansubform',
                     ),
                 ),
     StringField('mmWebServer',
@@ -41,10 +43,13 @@ schema = BaseSchema + Schema((
                 validators=('isURL',),
                 widget=StringWidget(
                     label='Mailman Web Server',
+                    label_msgid='MailmanSubForm_label_mmWebServer',
                     description="""
                     The base URL of your Mailman list server. This should be the web address
                     that precedes "listinfo" in the list info page address.
                     """,                
+                    description_msgid='MailmanSubForm_help_mmWebServer',
+                    i18n_domain='mailmansubform',
                     ),
                 ),
     StringField('mmListName',
@@ -52,9 +57,12 @@ schema = BaseSchema + Schema((
                 required=1,
                 widget=StringWidget(
                     label='List Name',
+                    label_msgid='MailmanSubForm_label_mmListName',
                     description="""
                     The name of your Mailman list.
                     """,                
+                    description_msgid='MailmanSubForm_help_mmListName',
+                    i18n_domain='mailmansubform',
                     ),
                 ),
     StringField('mmFullNameReq',
@@ -63,9 +71,12 @@ schema = BaseSchema + Schema((
         enforceVocabulary=1,
         widget=SelectionWidget(
             label='Subscriber Names',
+            label_msgid='MailmanSubForm_label_mmFullNameReq',
             description="""
                 Do you wish to ask for, or require, subscriber names?
             """,
+            description_msgid='MailmanSubForm_help_mmFullNameReq',
+            i18n_domain='mailmansubform',
             ),
         ),
 #    StringField('mmSubPolicy',
@@ -93,12 +104,14 @@ schema = BaseSchema + Schema((
         allowable_content_types = zconf.ATDocument.allowed_content_types,
         widget = RichWidget(
             label = "List Introduction",
+            label_msgid='MailmanSubForm_label_mmListIntro',
             description = """
                 This text will display at the top of the subscribe/unsubscribe form.
                 Use it to introduce your list.
             """,
+            description_msgid='MailmanSubForm_help_mmListIntro',
             rows = 7,
-            i18n_domain = "plone",
+            i18n_domain = "mailmansubform",
             allow_file_upload = False,
         ),
     ),

@@ -1,0 +1,198 @@
+# Translation to Dutch
+# Atopia <info@atopia.nl>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: MailmanSubForm 0.3\n"
+"POT-Creation-Date: 2006-12-19 12:50+0000\n"
+"PO-Revision-Date: 2007-04-18 14:31+0100\n"
+"Last-Translator: Atopia <info@atopia.nl>\n"
+"Language-Team: Atopia <info@atopia.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: nl\n"
+"Language-Name: Nederlands\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: mailmansubform\n"
+"X-Is-Fallback-For: nl-be\n"
+
+#. Default: "Enter an e-mail address. This is the address which will receive list mailings."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "help_email_address"
+msgstr "Voer een e-mailadres in. Dit is het adres dat de berichten van de lijst zal ontvangen."
+
+#. Default: "Enter the e-mail address under which you are currently subscribed. Note that this address will need to exactly match the list database entry."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "help_unsubscribe_email_address"
+msgstr "Voer het e-mailadres in waarmee u momenteel mee bent aangemeld. Let op dat adres exact gelijk moet zijn met het adres waarmee u bent aangemeld."
+
+#. Default: "Identifies you to the list manager."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "help_your_name"
+msgstr "Identificeert u aan de beheerder van de lijst."
+
+#. Default: "Required for subscription approval."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_required_for_subscription_approval"
+msgstr "Verplicht voor het accordering van de aanmelding."
+
+#. Default: "Description"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_description"
+msgstr "Beschrijving"
+
+#. Default: "Difficulties Cancelling?"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_difficulties_cancelling"
+msgstr "Problemen met afmelden?"
+
+#. Default: "If you don't receive a confirmation request e-mail"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_if_you_dont_receive_a_confirmation_request_email"
+msgstr "Als u geen bevestigingsaanvraag per e-mail heeft ontvangen"
+
+#. Default: "List Server Addresses:"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_list_server_addresses"
+msgstr "Lijst Server Adres"
+
+#. Default: "List Subscribe"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_list_subscribe"
+msgstr "Aanmelden voor de lijst"
+
+#. Default: "List Unsubscribe"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_list_unsubscribe"
+msgstr "Afmelden van de lijst"
+
+#. Default: "Managing your subscription"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_managing_your_subscription"
+msgstr "Beheren van uw abonnement"
+
+#. Default: "E-Mail Address"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_email_address"
+msgstr "E-mailadres"
+
+
+#. Default: "Your Name"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "label_your_name"
+msgstr "Uw volledige naam"
+
+#. Default: "This item does not have any introductory text, click the edit tab to change it."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "no_body_text"
+msgstr "Dit object heeft geen inleidende tekst, klik op de bewerken-tab om dit te te wijzigen."
+
+#. Default: "cancellation"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_cancellation"
+msgstr "afmelding"
+
+#. Default: "confirmation requests"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_confirmation_requests"
+msgstr "bevestigingsaanvragen"
+
+#. Default: "\"From\" for subscription"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_from_for_subscription"
+msgstr "<em>Van</em> (<em>From</em>) voor abonnement"
+
+#. Default: "If you have a list subscription, you may manage it by visiting:"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_if_you_have_list_subscription"
+msgstr "Als u al een abonnement heeft op de lijst, dan kunt u deze beheren door te gaan naar:"
+
+#. Default: "mailing list"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_mailing_list"
+msgstr "Mailinglijst"
+
+#. Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_manage_visit_link"
+msgstr "Als het aanmeldproces helemaal is afgerond, dan pas kunt u uw abonnement beheren door te gaan naar:"
+
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 183, Column 11
+#.
+#. Orginal text:
+#. Please Note:
+msgid "text_please_note"
+msgstr "Merk op:"
+
+#. Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_trouble_unsubscribing"
+msgstr "Als u problemen ondervindt met aanmelden, stuur dan een bericht naar de beheerder. Markeer a.u.b. nooit berichten van deze lijst als SPAM en verzoek uw ISP (Internet Service Provider) niet om deze berichten te blokkeren. Dit kan voorkomen dat u (indien toegestaan in uw abonnement) berichten kan sturen naar andere geabonneerden."
+
+#. Default: "Reply to the message, following its instructions; or,"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_reply_to_the_message"
+msgstr "Reageren op het bericht en volg de instructies op, of,"
+
+#. Default: "request was made with the authorization of the address owner."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_request_was_made_with"
+msgstr "verzoek was ingediend met toestemming van de eigenaar van het adres."
+
+#. Default: "request, you must either"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_request_you_must_either"
+msgstr "moet u"
+
+#. Default: "\"Sender\" for list mail"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_sender_for_list_mail"
+msgstr "<em>Afzender</em> (<em>Sender</em>) van de berichtenlijst"
+
+#. Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_the_confirmation_request_message"
+msgstr "Het verzoekbericht tot bevestiging zou onderschept kunnen zijn door een SPAM-filter. Kijk in uw junk-berichtenmap (junk e-mail folder) (als u die heeft) om te zien of het verzoek daar terecht is gekomen."
+
+#. Default: "This step is used to confirm that the subscription"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_this_step_is_used_to_confirm"
+msgstr "Deze stap wordt gebruikt om te bevestigen dat het aanmeldings"
+
+#. Default: "To complete your subscription"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_to_complete_your_subscription"
+msgstr "Om uw aanmelding af te ronden"
+
+#. Default: "Visit the web page specified in the message."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_visit_the_web_page"
+msgstr "Bezoek de webpagina die in het bericht is aangegen."
+
+#. Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_within_the_next_few_minutes"
+msgstr "Groene Treden heeft u zojuist een e-mail gestuurd om uw inschrijving of uitschrijving te bevestigen."
+
+#. Default: "You may also cancel your subscription by visiting:"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_you_may_also_cancel_subscription_by_visiting"
+msgstr "U kan uw abonnement opzeggen door te gaan naar:"
+
+#. Default: "You may also e-mail the list manager at"
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_you_may_also_email_the_list_manager_at"
+msgstr "U kunt met vragen altijd een e-mail sturen naar"
+
+#. Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_you_may_need_to_add_the_list"
+msgstr "U zou de twee onderstaande e-mailadressen kunnen toevoegen aan uw adresboek:"
+
+#. Default: "Your confirmation is required to ..."
+#: skins/MailmanSubForm/mmSubForm_view.cpt
+msgid "text_your_confirmation_is_required_to"
+msgstr "Uw bevestiging is nodig om ..."
+

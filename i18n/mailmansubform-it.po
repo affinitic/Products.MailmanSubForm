@@ -1,0 +1,520 @@
+# Gettext Message File for PlacelessTranslationService.
+msgid ""
+msgstr ""
+"Project-Id-Version: MailmanSubForm\n"
+"POT-Creation-Date: 2003-10-04 12:51+0300\n"
+"Last-Translator: davide.moro@redomino.com\n"
+"Language-Team:  <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-code: it\n"
+"Language-name: Italiano\n"
+"Preferred-encodings: ascii latin1 utf-8\n"
+"Domain: mailmansubform\n"
+
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 78, Column 10
+#.
+#. Orginal text:
+#. Mailman List Subscribe/Unsubscribe Form
+msgid "MailmanSubForm_label_mmLabel"
+msgstr "Form di iscrizione/cancellazione dalla Mailman List"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                         Sets up a form that may be used to attempt subscription to
+#.                         or unsubscription from a Mailman list.
+#.                         Actual subscribe/unsubscribe is handled by sending mail to
+#.                         the list request address.
+#.                     
+msgid "MailmanSubForm_help_mmLabel"
+msgstr "Crea un form che può essere usato per richiedere di essere iscritto o cancellato da una lista Mailman. Attualmente l'iscrizione o cancellazione viene gestita mandando una mail all'indirizzo della lista."
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 78, Column 10
+#.
+#. Orginal text:
+#. Mailman List Server
+msgid "MailmanSubForm_label_mmServer"
+msgstr "Server Mailman List"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                     The host name of your Mailman list server. Subscribe/Unsubscribe
+#.                     requests will be sent to this server.
+#.                     
+msgid "MailmanSubForm_help_mmServer"
+msgstr "Host name del tuo server Mailman. Le richieste di iscrizione o cancellazione verranno inoltrate a questo server."
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 78, Column 10
+#.
+#. Orginal text:
+#. Mailman Web Server
+msgid "MailmanSubForm_label_mmWebServer"
+msgstr "Host name del server Mailman list. Le richieste di iscrizione/cancellazione verranno inviate a questo server"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                     The base URL of your Mailman list server. This should be the web address
+#.                     that precedes "listinfo" in the list info page address.
+#.                     
+msgid "MailmanSubForm_help_mmWebServer"
+msgstr "URL base del tuo server Mailman. Dovrebbe essere l'indirizzo web che precede l'indirizzo della sezione della pagina di info."
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 78, Column 10
+#.
+#. Orginal text:
+#. List Name
+msgid "MailmanSubForm_label_mmListName"
+msgstr "Nome della lista"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                     The name of your Mailman list.
+#.                     
+msgid "MailmanSubForm_help_mmListName"
+msgstr "Il nome della tua lista Mailman"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 78, Column 10
+#.
+#. Orginal text:
+#. Subscriber Names
+msgid "MailmanSubForm_label_mmFullNameReq"
+msgstr "Nomi dei sottoscrittori"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                 Do you wish to ask for, or require, subscriber names?
+#.             
+msgid "MailmanSubForm_help_mmFullNameReq"
+msgstr "Preferisci che i nomi dei sottoscrittori siano obbligatori o no?"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/selection.pt
+#. Line 47, Column 24
+#.
+#. Orginal text:
+#. Not Requested
+msgid "Not Requested"
+msgstr "Non richiesto"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/selection.pt
+#. Line 47, Column 24
+#.
+#. Orginal text:
+#. Optional
+msgid "Optional"
+msgstr "Opzionale"
+
+#. Added on Mon Jun  4 17:22:47 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/selection.pt
+#. Line 47, Column 24
+#.
+#. Orginal text:
+#. Required
+msgid "Required"
+msgstr "Obbligatorio"
+
+#. Added on Mon Jun  4 17:54:37 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 89, Column 10
+#.
+#. Orginal text:
+#. 
+#.                 This text will display at the top of the subscribe/unsubscribe form.
+#.                 Use it to introduce your list.
+#.             
+msgid "MailmanSubForm_help_mmListIntro"
+msgstr "Questo testo apparirà sopra al form di iscrizione/cancellazione. Usalo per introdurre la tua lista."
+
+#. Added on Mon Jun  4 17:57:06 2007
+#.
+#: file:Archetypes/skins/archetypes/widgets/field.pt
+#. Line 78, Column 10
+#.
+#. Orginal text:
+#. List Introduction
+msgid "MailmanSubForm_label_mmListIntro"
+msgstr "Introduzione alla lista"
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 49, Column 14
+#.
+#. Orginal text:
+#. List Subscribe
+msgid "label_list_subscribe"
+msgstr "Iscrizione alla lista"
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 56, Column 18
+#.
+#. Orginal text:
+#. E-Mail Address
+msgid "label_email_address"
+msgstr "Indirizzo email"
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 60, Column 18
+#.
+#. Orginal text:
+#. 
+#.                     Enter an e-mail address. This is the address which will receive list mailings.
+#.                   
+msgid "help_email_address"
+msgstr "Digita un indirizzo email. Riceverai le mail della lista all'indirizzo che indicherai."
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 108, Column 22
+#.
+#. Orginal text:
+#. Subscribe
+msgid "subscribe_action"
+msgstr "Iscriviti"
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 131, Column 14
+#.
+#. Orginal text:
+#. List Unsubscribe
+msgid "label_list_unsubscribe"
+msgstr "Cancellazione dalla lista"
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 142, Column 16
+#.
+#. Orginal text:
+#. 
+#.                   Enter the e-mail address under which you are currently subscribed. Note that this
+#.                   address will need to exactly match the list database entry.
+#.                 
+msgid "help_unsubscribe_email_address"
+msgstr "Indica l'indirizzo email con il quale sei attualmente iscritto. Nota che questo indirizzo deve per forza coincidere con quello registrato nel database"
+
+#. Added on Tue Jun  5 15:39:46 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 162, Column 22
+#.
+#. Orginal text:
+#. Cancel My Subscription
+msgid "cancel_action"
+msgstr "Cancella la mia iscrizione"
+
+#. Added on Tue Jun  5 16:05:08 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 177, Column 8
+#.
+#. Orginal text:
+#. Managing your subscription
+msgid "label_managing_your_subscription"
+msgstr "Gestisci l'iscrizione"
+
+#. Added on Tue Jun  5 16:05:08 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 183, Column 11
+#.
+#. Orginal text:
+#. Please Note:
+msgid "text_please_note"
+msgstr "Per favore, presta attenzione:"
+
+#. Added on Tue Jun  5 16:05:08 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 183, Column 70
+#.
+#. Orginal text:
+#. If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers.
+msgid "text_trouble_unsubscribing"
+msgstr "Se stai incontrando problemi nell'iscriverti, manda un'email all'amministratore della lista. Per favore non riportare come SPAM le mail della lista, in modo tale che il tuo ISP non blocchi la posta. Ciò può impedire di inoltrare le mail ad altri sottoscrittori della lista."
+
+#. Added on Tue Jun  5 16:06:04 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 218, Column 8
+#.
+#. Orginal text:
+#. 
+#.           Once the subscription process has been complete, you may manage your subscription by visiting:
+#.         
+msgid "text_manage_visit_link"
+msgstr "Una volta che il processo di iscrizione è stato completato, puoi gestire i dati della tua iscrizione visitando:"
+
+#. Added on Tue Jun  5 16:06:21 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 226, Column 8
+#.
+#. Orginal text:
+#. Difficulties Cancelling?
+msgid "label_difficulties_cancelling"
+msgstr "Difficoltà nel cancellarti?"
+
+#. Added on Tue Jun  5 16:06:21 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 227, Column 8
+#.
+#. Orginal text:
+#. 
+#.           You may also cancel your subscription by visiting:
+#.         
+msgid "text_you_may_also_cancel_subscription_by_visiting"
+msgstr "Puoi anche cancellare la tua iscrizione visitando:"
+
+#. Added on Tue Jun  5 16:26:07 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 178, Column 8
+#.
+#. Orginal text:
+#. 
+#.           If you have a list subscription, you may manage it by visiting:
+#.         
+msgid "text_if_you_have_list_subscription"
+msgstr "Se sei iscritto alla lista, puoi gestire i tuoi dati visitando:"
+
+#. Added on Tue Jun  5 16:26:07 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 182, Column 11
+#.
+#. Orginal text:
+#. You may also e-mail the list manager at:
+msgid "text_you_may_also_email_the_list_manager_at"
+msgstr "Puoi anche mandare un'email all'amministratore della lista"
+
+
+#. Added on Tue Jun  5 16:30:32 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 84, Column 18
+#.
+#. Orginal text:
+#. Your Name
+msgid "label_your_name"
+msgstr "Il tuo nome"
+
+#. Added on Tue Jun  5 16:30:32 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 89, Column 20
+#.
+#. Orginal text:
+#. Identifies you to the list manager.
+msgid "help_your_name"
+msgstr "Ti identifica al manager della lista."
+
+#. Added on Tue Jun  5 16:30:32 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 90, Column 20
+#.
+#. Orginal text:
+#. Required for subscription approval.
+msgid "text_required_for_subscription_approval"
+msgstr "Obbligatorio per l'approvazione dell'iscrizione."
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 189, Column 6
+#.
+#. Orginal text:
+#. 
+#.         Within the next few minutes you should receive an e-mail message with a subject line like:
+#.       
+msgid "text_within_the_next_few_minutes"
+msgstr "Entro pochi minuti dovresti ricevere un'email con un oggetto simile a questo:"
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 192, Column 160
+#.
+#. Orginal text:
+#. Your confirmation is required to ...
+msgid "text_your_confirmation_is_required_to"
+msgstr "La tua conferma è obbligatoria per ..."
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 194, Column 6
+#.
+#. Orginal text:
+#. To complete your subscription <span>cancellation</span> request, you must either:
+msgid "text_to_complete_your_subscription"
+msgstr "Per completare la tua richiesta di iscrizione, devi:"
+
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 194, Column 6
+#.
+#. Orginal text:
+#. To complete your subscription <span>cancellation</span> request, you must either:
+msgid "text_to_complete_your_cancellation"
+msgstr "Per completare la tua richiesta di cancellazione, devi:"
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 196, Column 8
+#.
+#. Orginal text:
+#. Reply to the message, following its instructions; or,
+msgid "text_reply_to_the_message"
+msgstr "Rispondi al messaggio, seguendo le istruzioni indicate; oppure,"
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 197, Column 8
+#.
+#. Orginal text:
+#. Visit the web page specified in the message.
+msgid "text_visit_the_web_page"
+msgstr "Visita la pagina web specificata nel messaggio."
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#.
+#. Orginal text:
+#. 
+#.         This step is used to confirm that the subscription request was made with the authorization of the address owner.
+#.       
+msgid "text_this_step_is_used_to_confirm_subscribe"
+msgstr "Questo passo è richiesto per confermare che la richiesta di iscrizione sia stata fatta con l'autorizzazione del proprietario dell'inderizzo"
+
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#.
+#. Orginal text:
+#. 
+#.         This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner.
+#.       
+msgid "text_this_step_is_used_to_confirm_cancel"
+msgstr "Questo passo è richiesto per confermare che la richiesta di cancellazione sia stata fatta con l'autorizzazione del proprietario dell'inderizzo"
+
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 204, Column 8
+#.
+#. Orginal text:
+#. If you don't receive a confirmation request e-mail
+msgid "label_if_you_dont_receive_a_confirmation_request_email"
+msgstr "Se non hai ricevuto una email di conferma"
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 205, Column 8
+#.
+#. Orginal text:
+#. 
+#.           The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there.
+#.         
+msgid "text_the_confirmation_request_message"
+msgstr "Il messaggio di conferma può essere stato intercettato da un filtro di SPAm. Controlla il cestino della tua mail (se ne hai uno) per vedere se il messaggio si trova lì."
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 208, Column 8
+#.
+#. Orginal text:
+#. You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list.
+msgid "text_you_may_need_to_add_the_list"
+msgstr "Potrai aver bisogno di aggiungere il mittente alla tua rubrica."
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 209, Column 8
+#.
+#. Orginal text:
+#. List Server Addresses:
+msgid "label_list_server_addresses"
+msgstr "Indirizzi Server della lista:"
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 211, Column 10
+#.
+#. Orginal text:
+#. "Sender" for list mail
+msgid "text_sender_for_list_mail"
+msgstr "Mittente per la lista (sender)"
+
+#. Added on Tue Jun  5 16:31:47 2007
+#.
+#: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.cpt
+#. Line 213, Column 10
+#.
+#. Orginal text:
+#. "From" for subscription <span>cancellation</span> confirmation requests
+msgid "from"
+msgstr "Mittente per conferme di iscrizione/cancellazione"
+

@@ -1,4 +1,7 @@
-from Products.CMFCore.CMFCorePermissions import setDefaultRoles
+try: # New CMF
+    from Products.CMFCore.permissions import setDefaultRoles
+except: # Old CMF
+    from Products.CMFCore.CMFCorePermissions import setDefaultRoles
 
 # adjust these to your Mailman environment:
 defaultServer    = "velocipede.dcn.davis.ca.us"

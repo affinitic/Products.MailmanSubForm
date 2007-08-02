@@ -1,9 +1,16 @@
 from Globals import package_home
-from Products.CMFCore import utils, CMFCorePermissions, DirectoryView
-from Products.CMFPlone.PloneUtilities import ToolInit
+from Products.CMFCore import utils, DirectoryView
 from Products.Archetypes.public import *
 from Products.Archetypes import listTypes
 from Products.Archetypes.utils import capitalize
+
+try: # New CMF
+    from Products.CMFCore import permissions as CMFCorePermissions
+    from Products.CMFPlone.utils import ToolInit
+except: # Old CMF
+    from Products.CMFCore import CMFCorePermissions
+    from Products.CMFPlone.PloneUtilities import ToolInit
+
 
 # Get configuration data, permissions
 from Products.MailmanSubForm.config import *

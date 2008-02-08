@@ -214,7 +214,7 @@
         <dl>
           <dt i18n:translate="text_sender_for_list_mail">"Sender" for list mail</dt>
           <dd tal:content="python:'%s-bounces@%s' % (here.mmListName, here.mmServer)"></dd>
-          <dt> i18n:translate="text_from_for_confirmation">"From" for confirmation requests</dt>
+          <dt i18n:translate="text_from_for_confirmation">"From" for confirmation requests</dt>
           <dd tal:content="python:'%s-confirm@%s' % (here.mmListName, here.mmServer)"></dd>
         </dl>
       

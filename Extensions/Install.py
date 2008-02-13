@@ -1,6 +1,9 @@
 from Products.CMFCore.DirectoryView import addDirectoryViews
 from Products.CMFCore.utils import getToolByName
-from Products.CMFCore.CMFCorePermissions import ManagePortal
+try: # New CMF
+    from Products.CMFCore.permissions import ManagePortal
+except: # Old CMF
+    from Products.CMFCore.CMFCorePermissions import ManagePortal
 from Products.Archetypes.public import listTypes
 from Products.Archetypes.Extensions.utils import installTypes, install_subskin
 

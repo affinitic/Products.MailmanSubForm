@@ -19,9 +19,8 @@
 
       <tal:block condition="python: not (request.get('unsubscribe') or request.get('subscribe'))">
         <p class="documentDescription"
-           tal:content="here/Description"
            tal:condition="here/Description"
-	   i18n:translate="label_description">
+           i18n:translate="label_description">
             Description
         </p>
     

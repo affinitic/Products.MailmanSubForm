@@ -1,5 +1,9 @@
 from AccessControl import ClassSecurityInfo
-from Products.Archetypes.public import *
+try:
+    # try to have a translatable content type
+    from Products.LinguaPlone.public import *
+except:
+    from Products.Archetypes.public import *
 from DateTime import DateTime
 from config import PROJECTNAME, defaultServer, defaultWebServer
 from Products.ATContentTypes.configuration import zconf

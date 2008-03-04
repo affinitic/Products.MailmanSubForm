@@ -1,21 +1,20 @@
-# Translation to Dutch
-# Atopia <info@atopia.nl>, 2006.
+# Translation to German
+# Affinitic Sprl <info@affinitic.be>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: MailmanSubForm 0.3\n"
+"Project-Id-Version: MailmanSubForm\n"
 "POT-Creation-Date: 2007-07-10 15:42+0000\n"
-"PO-Revision-Date: 2007-04-18 14:31+0100\n"
-"Last-Translator: Atopia <info@atopia.nl>\n"
-"Language-Team: Atopia <info@atopia.nl>\n"
+"PO-Revision-Date: Wed Jun  6 10:28:22 2007\n"
+"Last-Translator: Affinitic Sprl <info@affinitic.be>\n"
+"Language-Team: <info@affinitic.be>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: nl\n"
-"Language-Name: Nederlands\n"
-"Preferred-Encodings: utf-8 latin1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
+"Preferred-Encodings: ascii latin1 utf-8\n"
 "Domain: mailmansubform\n"
-"X-Is-Fallback-For: nl-be\n"
 
 # The following are in vocabularies
 msgid "Confirm (subscriber must respond to test message)"
@@ -155,6 +154,8 @@ msgstr ""
 msgid "Unable to send mail: ${exception}"
 msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Cancel My Subscription"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Line 162, Column 22
 #.
@@ -162,108 +163,129 @@ msgstr ""
 #. Cancel My Subscription
 #: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:161
-#, fuzzy
 msgid "cancel_action"
-msgstr "afmelding"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Enter an e-mail address. This is the address which will receive list mailings."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Enter an e-mail address. This is the address which will receive list mailings."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:60
 msgid "help_email_address"
 msgstr ""
-"Voer een e-mailadres in. Dit is het adres dat de berichten van de lijst zal "
-"ontvangen."
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: ""
+#  "Enter the e-mail address under which you are currently subscribed. Note that this\n"
+#  "                  address will need to exactly match the list database entry."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Enter the e-mail address under which you are currently subscribed. Note that this address will need to exactly match the list database entry."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:141
 msgid "help_unsubscribe_email_address"
 msgstr ""
-"Voer het e-mailadres in waarmee u momenteel mee bent aangemeld. Let op dat "
-"adres exact gelijk moet zijn met het adres waarmee u bent aangemeld."
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Identifies you to the list manager."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Identifies you to the list manager."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:88
 msgid "help_your_name"
-msgstr "Identificeert u aan de beheerder van de lijst."
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Description"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Description"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:21
 msgid "label_description"
-msgstr "Beschrijving"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Difficulties Cancelling?"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Difficulties Cancelling?"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:229
 msgid "label_difficulties_cancelling"
-msgstr "Problemen met afmelden?"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "E-Mail Address"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "E-Mail Address"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:56
 #: /skins/MailmanSubForm/mmSubForm_view.pt:137
 msgid "label_email_address"
-msgstr "E-mailadres"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "If you don't receive a confirmation request e-mail"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "If you don't receive a confirmation request e-mail"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:207
 msgid "label_if_you_dont_receive_a_confirmation_request_email"
-msgstr "Als u geen bevestigingsaanvraag per e-mail heeft ontvangen"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "List Server Addresses"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "List Server Addresses"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:212
 msgid "label_list_server_addresses"
-msgstr "Lijst Server Adres"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "List Subscribe"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "List Subscribe"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:49
 msgid "label_list_subscribe"
-msgstr "Aanmelden voor de lijst"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "List Unsubscribe"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "List Unsubscribe"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:130
 msgid "label_list_unsubscribe"
-msgstr "Afmelden van de lijst"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Managing your subscription"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Managing your subscription"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:176
 #: /skins/MailmanSubForm/mmSubForm_view.pt:220
 msgid "label_managing_your_subscription"
-msgstr "Beheren van uw abonnement"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Your Name"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Your Name"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:84
 msgid "label_your_name"
-msgstr "Uw volledige naam"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "This item does not have any introductory text, click the edit tab to change it."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "This item does not have any introductory text, click the edit tab to change it."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:27
 msgid "no_body_text"
 msgstr ""
-"Dit object heeft geen inleidende tekst, klik op de bewerken-tab om dit te te "
-"wijzigen."
 
 # #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
 # Default: "Subscribe"
@@ -274,146 +296,157 @@ msgstr ""
 msgid "subscribe_action"
 msgstr ""
 
+# Default: "\"From\" for confirmation requests"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:216
-#, fuzzy
 msgid "text_from_for_confirmation"
-msgstr "<em>Van</em> (<em>From</em>) voor abonnement"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "If you have a list subscription, you may manage it by visiting:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "If you have a list subscription, you may manage it by visiting:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:177
 msgid "text_if_you_have_list_subscription"
 msgstr ""
-"Als u al een abonnement heeft op de lijst, dan kunt u deze beheren door te "
-"gaan naar:"
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:221
 msgid "text_manage_visit_link"
 msgstr ""
-"Als het aanmeldproces helemaal is afgerond, dan pas kunt u uw abonnement "
-"beheren door te gaan naar:"
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Please Note:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Please Note:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:182
 msgid "text_please_note"
-msgstr "Merk op:"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:235
-#, fuzzy
 msgid "text_please_note_if_you_are_having_trouble_unsubscribing"
 msgstr ""
-"Als u problemen ondervindt met aanmelden, stuur dan een bericht naar de "
-"beheerder. Markeer a.u.b. nooit berichten van deze lijst als SPAM en verzoek "
-"uw ISP (Internet Service Provider) niet om deze berichten te blokkeren. Dit "
-"kan voorkomen dat u (indien toegestaan in uw abonnement) berichten kan "
-"sturen naar andere geabonneerden."
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Reply to the message, following its instructions; or,"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Reply to the message, following its instructions; or,"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:196
 msgid "text_reply_to_the_message"
-msgstr "Reageren op het bericht en volg de instructies op, of,"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Required for subscription approval."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Required for subscription approval."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:90
 msgid "text_required_for_subscription_approval"
-msgstr "Verplicht voor het accordering van de aanmelding."
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "\"Sender\" for list mail"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "\"Sender\" for list mail"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:214
 msgid "text_sender_for_list_mail"
-msgstr "<em>Afzender</em> (<em>Sender</em>) van de berichtenlijst"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:208
 msgid "text_the_confirmation_request_message"
 msgstr ""
-"Het verzoekbericht tot bevestiging zou onderschept kunnen zijn door een SPAM-"
-"filter. Kijk in uw junk-berichtenmap (junk e-mail folder) (als u die heeft) "
-"om te zien of het verzoek daar terecht is gekomen."
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:202
-#, fuzzy
 msgid "text_this_step_is_used_to_confirm_cancel"
-msgstr "Deze stap wordt gebruikt om te bevestigen dat het aanmeldings"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:199
-#, fuzzy
 msgid "text_this_step_is_used_to_confirm_subscribe"
-msgstr "Deze stap wordt gebruikt om te bevestigen dat het aanmeldings"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "To complete your subscription cancellation request, you must either:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "To complete your subscription cancellation request, you must either:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:194
-#, fuzzy
 msgid "text_to_complete_your_cancellation"
-msgstr "Om uw aanmelding af te ronden"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "To complete your subscription request, you must either:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "To complete your subscription request, you must either:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:193
 msgid "text_to_complete_your_subscription"
-msgstr "Om uw aanmelding af te ronden"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:182
 msgid "text_trouble_unsubscribing"
 msgstr ""
-"Als u problemen ondervindt met aanmelden, stuur dan een bericht naar de "
-"beheerder. Markeer a.u.b. nooit berichten van deze lijst als SPAM en verzoek "
-"uw ISP (Internet Service Provider) niet om deze berichten te blokkeren. Dit "
-"kan voorkomen dat u (indien toegestaan in uw abonnement) berichten kan "
-"sturen naar andere geabonneerden."
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Visit the web page specified in the message."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Visit the web page specified in the message."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:197
 msgid "text_visit_the_web_page"
-msgstr "Bezoek de webpagina die in het bericht is aangegen."
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:188
 msgid "text_within_the_next_few_minutes"
 msgstr ""
-"Groene Treden heeft u zojuist een e-mail gestuurd om uw inschrijving of "
-"uitschrijving te bevestigen."
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "You may also cancel your subscription by visiting:"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "You may also cancel your subscription by visiting:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:230
 msgid "text_you_may_also_cancel_subscription_by_visiting"
-msgstr "U kan uw abonnement opzeggen door te gaan naar:"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "You may also e-mail the list manager at"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "You may also e-mail the list manager at"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
@@ -421,32 +454,22 @@ msgstr "U kan uw abonnement opzeggen door te gaan naar:"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:225
 #: /skins/MailmanSubForm/mmSubForm_view.pt:234
 msgid "text_you_may_also_email_the_list_manager_at"
-msgstr "U kunt met vragen altijd een e-mail sturen naar"
+msgstr ""
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:211
 msgid "text_you_may_need_to_add_the_list"
 msgstr ""
-"U zou de twee onderstaande e-mailadressen kunnen toevoegen aan uw adresboek:"
 
+# #-#-#-#-#  mailmansubform.pot (0.4 (svn/unreleased))  #-#-#-#-#
+# Default: "Your confirmation is required to ${DYNAMIC_CONTENT} the ${DYNAMIC_CONTENT} mailing list"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Your confirmation is required to <span tal:replace=\"python: test(request.get('subscribed'),'join','leave')\"/> the <span tal:replace=\"here/mmListName\"/> mailing list"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:191
 msgid "text_your_confirmation_is_required_to"
-msgstr "Uw bevestiging is nodig om ..."
-
-#~ msgid "text_confirmation_requests"
-#~ msgstr "bevestigingsaanvragen"
-
-#~ msgid "text_mailing_list"
-#~ msgstr "Mailinglijst"
-
-#~ msgid "text_request_was_made_with"
-#~ msgstr ""
-#~ "verzoek was ingediend met toestemming van de eigenaar van het adres."
-
-#~ msgid "text_request_you_must_either"
-#~ msgstr "moet u"
+msgstr ""

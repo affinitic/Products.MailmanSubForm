@@ -11,18 +11,20 @@
 reg_tool=context.portal_registration
 request = context.REQUEST
 
+from Products.MailmanSubForm import MailmanSubFormMessage as _
+
 if request.get('subscribe'):
     subemail = request.get('subemail', None)
     if subemail and reg_tool.isValidEmail(subemail):
         pass
     else:
         if subemail:
-            state.setError('subemail', 'You did not enter a valid e-mail address.', 'invalid_email')
+            state.setError('subemail', _(u'You did not enter a valid e-mail address.'), 'invalid_email')
         else:
-            state.setError('subemail', 'You did not enter an e-mail address.', 'invalid_email')
+            state.setError('subemail', _(u'You did not enter an e-mail address.'), 'invalid_email')
     if getattr(context, 'mmFullNameReq', '') == 'mmfn_required':
         if not request.get('realname', None):
-            state.setError('realname', 'You did not enter a name.', 'invalid_realname')
+            state.setError('realname', _(u'You did not enter a name.'), 'invalid_realname')
 
 if request.get('unsubscribe'):
     unsubemail = request.get('unsubemail', None)
@@ -30,11 +32,11 @@ if request.get('unsubscribe'):
         pass
     else:
         if unsubemail:
-            state.setError('unsubemail', 'You did not enter a valid e-mail address.', 'invalid_email')
+            state.setError('unsubemail', _(u'You did not enter a valid e-mail address.'), 'invalid_email')
         else:
-            state.setError('unsubemail', 'You did not enter an e-mail address.', 'invalid_email')
+            state.setError('unsubemail', _(u'You did not enter an e-mail address.'), 'invalid_email')
 
 if state.getErrors():
-    return state.set(status='failure', portal_status_message='Please correct the indicated errors.')
+    return state.set(status='failure', portal_status_message=_(u'Please correct the indicated errors.'))
 else:
     return state

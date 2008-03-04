@@ -29,7 +29,15 @@ msgstr ""
 msgid "subscribe_action"
 msgstr ""
 
-#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:67
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:34
+msgid "Subscription request entered for ${address}"
+msgstr ""
+
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:42
+msgid "Subscription cancellation request entered for ${address}"
+msgstr ""
+
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:70
 msgid "Unable to send mail: ${exception}"
 msgstr ""
 

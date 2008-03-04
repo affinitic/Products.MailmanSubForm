@@ -31,13 +31,17 @@ if REQUEST.has_key('subscribe'):
     else:
       send_from_address = ea
     message = 'subscribe'
-    state.set(portal_status_message='Subscription request entered for %s' % send_from_address)
+    status_message = context.translate('Subscription request entered for ${address}',
+                                       {'address': send_from_address})
+    state.set(portal_status_message=status_message)
     state.set(subscribed='1')
     subject = "Subscription Request"
 else:    
     send_from_address = REQUEST.get('unsubemail', '')
     message = 'unsubscribe'
-    state.set(portal_status_message='Subscription cancellation request entered for %s' % send_from_address)
+    status_message = context.translate('Subscription cancellation request entered for ${address}',
+                                       {'address': send_from_address})
+    state.set(portal_status_message=status_message)
     state.set(unsubscribed='1')
     subject = "Subscription Cancellation Request"
 

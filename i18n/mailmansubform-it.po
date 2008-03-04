@@ -149,6 +149,10 @@ msgstr "Non richiesto"
 msgid "Optional"
 msgstr "Opzionale"
 
+#: /skins/MailmanSubForm/mmSubForm_validate.py:40
+msgid "Please correct the indicated errors."
+msgstr ""
+
 msgid "Require approval (but no confirm)"
 msgstr ""
 
@@ -159,8 +163,30 @@ msgstr ""
 msgid "Required"
 msgstr "Obbligatorio"
 
-#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:67
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:42
+msgid "Subscription cancellation request entered for ${address}"
+msgstr ""
+
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:34
+msgid "Subscription request entered for ${address}"
+msgstr ""
+
+#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:70
 msgid "Unable to send mail: ${exception}"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:27
+msgid "You did not enter a name."
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:22
+#: /skins/MailmanSubForm/mmSubForm_validate.py:35
+msgid "You did not enter a valid e-mail address."
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:24
+#: /skins/MailmanSubForm/mmSubForm_validate.py:37
+msgid "You did not enter an e-mail address."
 msgstr ""
 
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#

@@ -20,6 +20,9 @@ skin_globals=globals()
 DirectoryView.registerDirectory('skins', skin_globals)
 DirectoryView.registerDirectory('skins/MailmanSubForm', skin_globals)
 
+from zope.i18nmessageid import MessageFactory
+MailmanSubFormMessage = MessageFactory("mailmansubform")
+
 def initialize(context):
 
     # Import the type, which results in registerType() being called

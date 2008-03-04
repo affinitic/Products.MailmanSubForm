@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.4 (svn/unreleased)\n"
-"POT-Creation-Date: Tue Mar  4 15:21:38 2008\n"
+"POT-Creation-Date: Tue Mar  4 15:59:40 2008\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -22,6 +22,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:22
+#: /skins/MailmanSubForm/mmSubForm_validate.py:35
+msgid "You did not enter a valid e-mail address."
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:24
+#: /skins/MailmanSubForm/mmSubForm_validate.py:37
+msgid "You did not enter an e-mail address."
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:27
+msgid "You did not enter a name."
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:40
+msgid "Please correct the indicated errors."
+msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:108
 # Default: "Subscribe"

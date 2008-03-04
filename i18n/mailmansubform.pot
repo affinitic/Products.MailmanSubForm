@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.4 (svn/unreleased)\n"
-"POT-Creation-Date: Tue Mar  4 14:48:14 2008\n"
+"POT-Creation-Date: Tue Mar  4 15:21:38 2008\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -46,7 +46,7 @@ msgid "cancel_action"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:176
-#: /skins/MailmanSubForm/mmSubForm_view.pt:220
+#: /skins/MailmanSubForm/mmSubForm_view.pt:225
 # Default: "Managing your subscription"
 msgid "label_managing_your_subscription"
 msgstr ""
@@ -57,8 +57,8 @@ msgid "text_if_you_have_list_subscription"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:181
-#: /skins/MailmanSubForm/mmSubForm_view.pt:225
-#: /skins/MailmanSubForm/mmSubForm_view.pt:234
+#: /skins/MailmanSubForm/mmSubForm_view.pt:230
+#: /skins/MailmanSubForm/mmSubForm_view.pt:239
 # Default: "You may also e-mail the list manager at"
 msgid "text_you_may_also_email_the_list_manager_at"
 msgstr ""
@@ -78,49 +78,44 @@ msgstr ""
 msgid "text_within_the_next_few_minutes"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:191
-# Default: "Your confirmation is required to ${DYNAMIC_CONTENT} the ${DYNAMIC_CONTENT} mailing list"
-msgid "text_your_confirmation_is_required_to"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:192
+# Default: "Your confirmation is required to join the ${listname} mailing list"
+msgid "text_your_confirmation_is_required_to_join"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:193
+#: /skins/MailmanSubForm/mmSubForm_view.pt:195
+# Default: "Your confirmation is required to leave the ${listname} mailing list"
+msgid "text_your_confirmation_is_required_to_leave"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:198
 # Default: "To complete your subscription request, you must either:"
 msgid "text_to_complete_your_subscription"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:194
+#: /skins/MailmanSubForm/mmSubForm_view.pt:199
 # Default: "To complete your subscription cancellation request, you must either:"
 msgid "text_to_complete_your_cancellation"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:196
+#: /skins/MailmanSubForm/mmSubForm_view.pt:201
 # Default: "Reply to the message, following its instructions; or,"
 msgid "text_reply_to_the_message"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:197
+#: /skins/MailmanSubForm/mmSubForm_view.pt:202
 # Default: "Visit the web page specified in the message."
 msgid "text_visit_the_web_page"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:199
+#: /skins/MailmanSubForm/mmSubForm_view.pt:204
 # Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
 msgid "text_this_step_is_used_to_confirm_subscribe"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:202
+#: /skins/MailmanSubForm/mmSubForm_view.pt:207
 # Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
 msgid "text_this_step_is_used_to_confirm_cancel"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:207
-# Default: "If you don't receive a confirmation request e-mail"
-msgid "label_if_you_dont_receive_a_confirmation_request_email"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:208
-# Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
-msgid "text_the_confirmation_request_message"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:21
@@ -128,42 +123,52 @@ msgstr ""
 msgid "label_description"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:211
+#: /skins/MailmanSubForm/mmSubForm_view.pt:212
+# Default: "If you don't receive a confirmation request e-mail"
+msgid "label_if_you_dont_receive_a_confirmation_request_email"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:213
+# Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
+msgid "text_the_confirmation_request_message"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:216
 # Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
 msgid "text_you_may_need_to_add_the_list"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:212
+#: /skins/MailmanSubForm/mmSubForm_view.pt:217
 # Default: "List Server Addresses"
 msgid "label_list_server_addresses"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:214
+#: /skins/MailmanSubForm/mmSubForm_view.pt:219
 # Default: "\"Sender\" for list mail"
 msgid "text_sender_for_list_mail"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:216
+#: /skins/MailmanSubForm/mmSubForm_view.pt:221
 # Default: "\"From\" for confirmation requests"
 msgid "text_from_for_confirmation"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:221
+#: /skins/MailmanSubForm/mmSubForm_view.pt:226
 # Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
 msgid "text_manage_visit_link"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:229
+#: /skins/MailmanSubForm/mmSubForm_view.pt:234
 # Default: "Difficulties Cancelling?"
 msgid "label_difficulties_cancelling"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:230
+#: /skins/MailmanSubForm/mmSubForm_view.pt:235
 # Default: "You may also cancel your subscription by visiting:"
 msgid "text_you_may_also_cancel_subscription_by_visiting"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:235
+#: /skins/MailmanSubForm/mmSubForm_view.pt:240
 # Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 msgid "text_please_note_if_you_are_having_trouble_unsubscribing"
 msgstr ""

@@ -188,7 +188,12 @@
       <p i18n:translate="text_within_the_next_few_minutes">
         Within the next few minutes you should receive an e-mail message with a subject line like:
       </p>
-      <pre i18n:translate="text_your_confirmation_is_required_to">Your confirmation is required to <span tal:replace="python: test(request.get('subscribed'),'join','leave')" /> the <span tal:replace="here/mmListName" /> mailing list</pre>
+      <span tal:condition="python: request.get('subscribed') == 'join'">
+          <pre i18n:translate="text_your_confirmation_is_required_to_join">Your confirmation is required to join the <span i18n:name="listname" tal:replace="here/mmListName" /> mailing list</pre>
+      </span>
+      <span tal:condition="python: request.get('subscribed') == 'leave'">
+          <pre i18n:translate="text_your_confirmation_is_required_to_leave">Your confirmation is required to leave the <span i18n:name="listname" tal:replace="here/mmListName" /> mailing list</pre>
+      </span>
 
       <p tal:condition="not: request/unsubscribed | nothing" i18n:translate="text_to_complete_your_subscription">To complete your subscription request, you must either:</p>
       <p tal:condition="request/unsubscribed | nothing" i18n:translate="text_to_complete_your_cancellation">To complete your subscription cancellation request, you must either:</p>

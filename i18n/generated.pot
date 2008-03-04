@@ -188,11 +188,6 @@ msgstr ""
 msgid "text_you_may_need_to_add_the_list"
 msgstr ""
 
-#. Default: "Your confirmation is required to <span tal:replace=\"python: test(request.get('subscribed'),'join','leave')\"/> the <span tal:replace=\"here/mmListName\"/> mailing list"
-#: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-msgid "text_your_confirmation_is_required_to"
-msgstr ""
-
 #: file:MailmanSubForm/MailmanSubForm.py
 #.
 #. Orginal text:

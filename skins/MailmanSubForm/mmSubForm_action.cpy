@@ -8,6 +8,13 @@
 ##parameters=
 ##title=Process mmSubForm subscribe/unsubscribe
 ##
+try:
+    # use the translated object
+    context = context.getTranslation()
+except:
+    # maybe no LinguaPlone installed ?
+    pass
+
 REQUEST=context.REQUEST
 
 from Products.CMFPlone.utils import transaction_note

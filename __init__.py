@@ -1,3 +1,4 @@
+from AccessControl import allow_module
 from Globals import package_home
 from Products.CMFCore import utils, DirectoryView
 from Products.Archetypes.public import *
@@ -40,3 +41,5 @@ def initialize(context):
         extra_constructors = constructors,
         fti                = ftis,
         ).initialize(context)
+
+    allow_module('Products.MailmanSubForm.MailmanSubFormMessage')

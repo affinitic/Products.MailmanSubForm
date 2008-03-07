@@ -13,8 +13,8 @@
 ##############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.4 (svn/unreleased)\n"
-"POT-Creation-Date: Tue Mar  4 15:59:40 2008\n"
+"Project-Id-Version: 0.5 (svn/unreleased)\n"
+"POT-Creation-Date: Fri Mar  7 09:44:48 2008\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -23,207 +23,216 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:22
-#: /skins/MailmanSubForm/mmSubForm_validate.py:35
+#: /skins/MailmanSubForm/mmSubForm_validate.py:21
+msgid "You did not correctly enter the captcha."
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:29
+#: /skins/MailmanSubForm/mmSubForm_validate.py:42
 msgid "You did not enter a valid e-mail address."
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:24
-#: /skins/MailmanSubForm/mmSubForm_validate.py:37
+#: /skins/MailmanSubForm/mmSubForm_validate.py:31
+#: /skins/MailmanSubForm/mmSubForm_validate.py:44
 msgid "You did not enter an e-mail address."
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:27
+#: /skins/MailmanSubForm/mmSubForm_validate.py:34
 msgid "You did not enter a name."
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:40
+#: /skins/MailmanSubForm/mmSubForm_validate.py:47
 msgid "Please correct the indicated errors."
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:108
-# Default: "Subscribe"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:121
+#. Default: "Enter the exact word in the image. This is used to fight robots."
+msgid "help_captcha"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:134
+#. Default: "Subscribe"
 msgid "subscribe_action"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:130
-# Default: "List Unsubscribe"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:156
+#. Default: "List Unsubscribe"
 msgid "label_list_unsubscribe"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:141
-# Default: ""
-#  "Enter the e-mail address under which you are currently subscribed. Note that this\n"
-#  "                  address will need to exactly match the list database entry."
+#: /skins/MailmanSubForm/mmSubForm_view.pt:167
+#. Default: ""
+#.  "Enter the e-mail address under which you are currently subscribed. Note that this\n"
+#.  "                  address will need to exactly match the list database entry."
 msgid "help_unsubscribe_email_address"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:161
-# Default: "Cancel My Subscription"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:187
+#. Default: "Cancel My Subscription"
 msgid "cancel_action"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:176
-#: /skins/MailmanSubForm/mmSubForm_view.pt:225
-# Default: "Managing your subscription"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:202
+#: /skins/MailmanSubForm/mmSubForm_view.pt:251
+#. Default: "Managing your subscription"
 msgid "label_managing_your_subscription"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:177
-# Default: "If you have a list subscription, you may manage it by visiting:"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:203
+#. Default: "If you have a list subscription, you may manage it by visiting:"
 msgid "text_if_you_have_list_subscription"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:181
-#: /skins/MailmanSubForm/mmSubForm_view.pt:230
-#: /skins/MailmanSubForm/mmSubForm_view.pt:239
-# Default: "You may also e-mail the list manager at"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:207
+#: /skins/MailmanSubForm/mmSubForm_view.pt:256
+#: /skins/MailmanSubForm/mmSubForm_view.pt:265
+#. Default: "You may also e-mail the list manager at"
 msgid "text_you_may_also_email_the_list_manager_at"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:182
-# Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
+#: /skins/MailmanSubForm/mmSubForm_view.pt:208
+#. Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 msgid "text_trouble_unsubscribing"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:182
-# Default: "Please Note:"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:208
+#. Default: "Please Note:"
 msgid "text_please_note"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:188
-# Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
-msgid "text_within_the_next_few_minutes"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:192
-# Default: "Your confirmation is required to join the ${listname} mailing list"
-msgid "text_your_confirmation_is_required_to_join"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:195
-# Default: "Your confirmation is required to leave the ${listname} mailing list"
-msgid "text_your_confirmation_is_required_to_leave"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:198
-# Default: "To complete your subscription request, you must either:"
-msgid "text_to_complete_your_subscription"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:199
-# Default: "To complete your subscription cancellation request, you must either:"
-msgid "text_to_complete_your_cancellation"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:201
-# Default: "Reply to the message, following its instructions; or,"
-msgid "text_reply_to_the_message"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:202
-# Default: "Visit the web page specified in the message."
-msgid "text_visit_the_web_page"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:204
-# Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
-msgid "text_this_step_is_used_to_confirm_subscribe"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:207
-# Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
-msgid "text_this_step_is_used_to_confirm_cancel"
-msgstr ""
-
 #: /skins/MailmanSubForm/mmSubForm_view.pt:21
-# Default: "Description"
+#. Default: "Description"
 msgid "label_description"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:212
-# Default: "If you don't receive a confirmation request e-mail"
-msgid "label_if_you_dont_receive_a_confirmation_request_email"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:214
+#. Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
+msgid "text_within_the_next_few_minutes"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:213
-# Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
-msgid "text_the_confirmation_request_message"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:216
-# Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
-msgid "text_you_may_need_to_add_the_list"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:217
-# Default: "List Server Addresses"
-msgid "label_list_server_addresses"
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_view.pt:219
-# Default: "\"Sender\" for list mail"
-msgid "text_sender_for_list_mail"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:218
+#. Default: "Your confirmation is required to join the ${listname} mailing list"
+msgid "text_your_confirmation_is_required_to_join"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:221
-# Default: "\"From\" for confirmation requests"
+#. Default: "Your confirmation is required to leave the ${listname} mailing list"
+msgid "text_your_confirmation_is_required_to_leave"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:224
+#. Default: "To complete your subscription request, you must either:"
+msgid "text_to_complete_your_subscription"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:225
+#. Default: "To complete your subscription cancellation request, you must either:"
+msgid "text_to_complete_your_cancellation"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:227
+#. Default: "Reply to the message, following its instructions; or,"
+msgid "text_reply_to_the_message"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:228
+#. Default: "Visit the web page specified in the message."
+msgid "text_visit_the_web_page"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:230
+#. Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
+msgid "text_this_step_is_used_to_confirm_subscribe"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:233
+#. Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
+msgid "text_this_step_is_used_to_confirm_cancel"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:238
+#. Default: "If you don't receive a confirmation request e-mail"
+msgid "label_if_you_dont_receive_a_confirmation_request_email"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:239
+#. Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
+msgid "text_the_confirmation_request_message"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:242
+#. Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
+msgid "text_you_may_need_to_add_the_list"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:243
+#. Default: "List Server Addresses"
+msgid "label_list_server_addresses"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:245
+#. Default: "\"Sender\" for list mail"
+msgid "text_sender_for_list_mail"
+msgstr ""
+
+#: /skins/MailmanSubForm/mmSubForm_view.pt:247
+#. Default: "\"From\" for confirmation requests"
 msgid "text_from_for_confirmation"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:226
-# Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:252
+#. Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
 msgid "text_manage_visit_link"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:234
-# Default: "Difficulties Cancelling?"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:260
+#. Default: "Difficulties Cancelling?"
 msgid "label_difficulties_cancelling"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:235
-# Default: "You may also cancel your subscription by visiting:"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:261
+#. Default: "You may also cancel your subscription by visiting:"
 msgid "text_you_may_also_cancel_subscription_by_visiting"
 msgstr ""
 
-#: /skins/MailmanSubForm/mmSubForm_view.pt:240
-# Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
+#: /skins/MailmanSubForm/mmSubForm_view.pt:266
+#. Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 msgid "text_please_note_if_you_are_having_trouble_unsubscribing"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:27
-# Default: "This item does not have any introductory text, click the edit tab to change it."
+#. Default: "This item does not have any introductory text, click the edit tab to change it."
 msgid "no_body_text"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:49
-# Default: "List Subscribe"
+#. Default: "List Subscribe"
 msgid "label_list_subscribe"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:56
-#: /skins/MailmanSubForm/mmSubForm_view.pt:137
-# Default: "E-Mail Address"
+#: /skins/MailmanSubForm/mmSubForm_view.pt:163
+#. Default: "E-Mail Address"
 msgid "label_email_address"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:60
-# Default: "Enter an e-mail address. This is the address which will receive list mailings."
+#. Default: "Enter an e-mail address. This is the address which will receive list mailings."
 msgid "help_email_address"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:84
-# Default: "Your Name"
+#. Default: "Your Name"
 msgid "label_your_name"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:88
-# Default: "Identifies you to the list manager."
+#. Default: "Identifies you to the list manager."
 msgid "help_your_name"
 msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_view.pt:90
-# Default: "Required for subscription approval."
+#. Default: "Required for subscription approval."
 msgid "text_required_for_subscription_approval"
 msgstr ""
 

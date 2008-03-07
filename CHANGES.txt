@@ -1,3 +1,21 @@
+0.5 (svn/unreleased):
+
+- Add Plone 3.0 compatibility
+
+- Make MailmanSubForm content type translatable (if LinguaPlone is installed)
+
+- Add tools to re-generate translations (be carreful with python scripts and
+  templates extensions, the 'make translations' command will parse them
+  only if you rename them to .py and .pt)
+
+- Add FR and DE translations files (to be filled in soon)
+
+- Translate validator and form action python scripts with a message factory
+
+- Use the translated object when sending confirmation mail
+
+- Provide an optional captcha feature
+
 0.4 (svn/unreleased):
 
 - Merge message ids from submitted Dutch and Italian translation. This would have been

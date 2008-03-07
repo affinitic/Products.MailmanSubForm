@@ -97,6 +97,19 @@ schema = BaseSchema + Schema((
 #            """,
 #            ),
 #        ),
+    BooleanField('mmCaptcha',
+             widget=BooleanWidget(
+                label='Use captcha',
+                label_msgid='MailmanSubForm_label_mmCaptcha',
+                description="""
+                    Do you wish to use a captcha to protect mailing-list
+                    subscriptions from robots ?  (needs the collective.captcha
+                    package to work)
+                """,
+                description_msgid='MailmanSubForm_help_mmCaptcha    ',
+                i18n_domain='mailmansubform',
+                ),
+            ),
     TextField('mmListIntro',
         searchable=1,
         default="""

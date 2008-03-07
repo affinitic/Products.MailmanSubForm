@@ -1,5 +1,6 @@
 from zope.app.locales.extract import find_files
-from zope.i18n.messageid import Message
+# from zope.i18n.messageid import Message
+from zope.i18nmessageid import Message
 import xml.sax
 from xml.sax.handler import feature_namespaces
 from xml.sax.handler import ContentHandler

@@ -9,9 +9,16 @@
 ##title=Mailman Sub Form Validator
 ##
 reg_tool=context.portal_registration
-request = context.REQUEST
+request=context.REQUEST
 
 from Products.MailmanSubForm import MailmanSubFormMessage as _
+
+if request.get('captcha', None) is not None:
+    # we must use our view because @@capcha is not usable as it is a 
+    # browser:view and not a browser:page ...
+    captcha_validation_view = context.restrictedTraverse('@@CaptchaValidation_view')
+    if not captcha_validation_view.validate():
+        state.setError('captcha', _(u'You did not correctly enter the captcha.'), 'invalid_captcha')
 
 if request.get('subscribe'):
     subemail = request.get('subemail', None)

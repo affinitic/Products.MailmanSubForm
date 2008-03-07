@@ -15,5 +15,13 @@ Installation
   Edit MailmanSubForm.py to specify default Mailman host name and web server.
 
   Install in the usual way, using the QuickInstaller.
-  
-Tested with Mailman 2.1.5, Plone 2.1.2 and Archetypes 1.3.7-final.
+
+
+Captcha feature (contact: laurent.lasudry@affinitic.be)
+
+  If you want to use the captcha feature, you will need to install
+  the collective.captcha package.
+
+
+Originally tested with Mailman 2.1.5, Plone 2.1.2 and Archetypes 1.3.7-final.
+Now tested with Plone 2.5.4 and Plone 3.

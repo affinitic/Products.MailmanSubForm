@@ -109,7 +109,7 @@
                    tal:define="error errors/captcha | nothing;
                                realname request/captcha | nothing;
                                captchaView nocall:context/@@captcha | nothing"
-                   tal:condition="python:captchaView is not None and getattr(context, 'mmCaptcha')"
+                   tal:condition="python:captchaView is not None and context.getMmCaptcha()"
                    tal:attributes="class python:test(error, 'field error', 'field')">
 
                  <span tal:replace="structure captchaView/image_tag" />

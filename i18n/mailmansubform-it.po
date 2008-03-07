@@ -216,14 +216,12 @@ msgstr ""
 msgid "You did not enter an e-mail address."
 msgstr ""
 
-#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5
-)  #-#-#-#-#
+#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
 #. Line 162, Column 22
 #.
 #. Orginal text:
 #. Cancel My Subscription
-#. #-#-#-#-#  mailmansubform.pot (0.5
- (svn/unreleased))  #-#-#-#-#
+#. #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 #. Default: "Cancel My Subscription"
 #: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:187
@@ -243,11 +241,9 @@ msgstr ""
 "Digita un indirizzo email. Riceverai le mail della lista all'indirizzo che "
 "indicherai."
 
-#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5
-)  #-#-#-#-#
+#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
 #. Default: "Enter the e-mail address under which you are currently subscribed. Note that this address will need to exactly match the list database entry."
-#. #-#-#-#-#  mailmansubform.pot (0.5
- (svn/unreleased))  #-#-#-#-#
+#. #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 #. Default: ""
 #.  "Enter the e-mail address under which you are currently subscribed. Note that this\n"
 #.  "                  address will need to exactly match the list database entry."
@@ -321,8 +317,7 @@ msgstr "Gestisci l'iscrizione"
 msgid "label_your_name"
 msgstr "Il tuo nome"
 
-# #-#-#-#-#  mailmansubform.pot (0.5
- (svn/unreleased))  #-#-#-#-#
+# #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "This item does not have any introductory text, click the edit tab to change it."
 #. Default: "This item does not have any introductory text, click the edit tab to change it."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
@@ -330,12 +325,10 @@ msgstr "Il tuo nome"
 msgid "no_body_text"
 msgstr ""
 
-#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5
-)  #-#-#-#-#
+#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
 #. Orginal text:
 #. Subscribe
-#. #-#-#-#-#  mailmansubform.pot (0.5
- (svn/unreleased))  #-#-#-#-#
+#. #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 #. Default: "Subscribe"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:134
 msgid "subscribe_action"

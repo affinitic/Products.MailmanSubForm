@@ -106,7 +106,7 @@ schema = BaseSchema + Schema((
                     subscriptions from robots ?  (needs the collective.captcha
                     package to work)
                 """,
-                description_msgid='MailmanSubForm_help_mmCaptcha    ',
+                description_msgid='MailmanSubForm_help_mmCaptcha',
                 i18n_domain='mailmansubform',
                 ),
             ),

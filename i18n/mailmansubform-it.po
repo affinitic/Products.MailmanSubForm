@@ -3,6 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MailmanSubForm\n"
 "POT-Creation-Date: 2007-07-10 15:42+0000\n"
+"PO-Revision-Date: 2008-03-12 13:28+0001\n"
 "Last-Translator: Affinitic Sprl <info@affinitic.be>\n"
 "Language-Team:  <>\n"
 "MIME-Version: 1.0\n"
@@ -16,10 +17,10 @@ msgstr ""
 
 # The following are in vocabularies
 msgid "Confirm (subscriber must respond to test message)"
-msgstr ""
+msgstr "Confermare (l’abbonato deve rispondere al messaggio test)"
 
 msgid "Confirm and approve"
-msgstr ""
+msgstr "Confermare ed approvare"
 
 #.
 #. Orginal text:
@@ -171,10 +172,10 @@ msgstr "Opzionale"
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:47
 msgid "Please correct the indicated errors."
-msgstr ""
+msgstr "Correggete gli errori segnalati."
 
 msgid "Require approval (but no confirm)"
-msgstr ""
+msgstr "Approvazione richiesta (ma senza conferma)"
 
 #.
 #. Orginal text:
@@ -185,15 +186,15 @@ msgstr "Obbligatorio"
 
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:42
 msgid "Subscription cancellation request entered for ${address}"
-msgstr ""
+msgstr "Richiesta d’annullamento di abbonamento introdotta per ${address}"
 
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:34
 msgid "Subscription request entered for ${address}"
-msgstr ""
+msgstr "Richiesta d’abbonamento introdotta per ${address}"
 
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:70
 msgid "Unable to send mail: ${exception}"
-msgstr ""
+msgstr "Impossibile inviare il messaggio: ${exception}"
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:21
 msgid "You did not correctly enter the captcha."
@@ -201,17 +202,17 @@ msgstr "I dati di controllo non corrispondono all’immagine."
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:34
 msgid "You did not enter a name."
-msgstr ""
+msgstr "Il nome non è stato introdotto."
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:29
 #: /skins/MailmanSubForm/mmSubForm_validate.py:42
 msgid "You did not enter a valid e-mail address."
-msgstr ""
+msgstr "L’indirizzo e-mail introdotto non è valido."
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:31
 #: /skins/MailmanSubForm/mmSubForm_validate.py:44
 msgid "You did not enter an e-mail address."
-msgstr ""
+msgstr "L’indirizzo e-mail non è stato introdotto."
 
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
 #. Line 162, Column 22
@@ -323,6 +324,8 @@ msgstr "Il tuo nome"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:27
 msgid "no_body_text"
 msgstr ""
+"Questo elemento non è accompagnato da alcun testo introduttivo. Fate clic "
+"sul pannello di editing per modificarlo."
 
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
 #. Orginal text:

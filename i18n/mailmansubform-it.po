@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MailmanSubForm\n"
 "POT-Creation-Date: 2007-07-10 15:42+0000\n"
-"Last-Translator: davide.moro@redomino.com\n"
+"Last-Translator: Affinitic Sprl <info@affinitic.be>\n"
 "Language-Team:  <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,12 +29,10 @@ msgstr ""
 #.                     package to work)
 #.                     
 #: file:MailmanSubForm/MailmanSubForm.py
-#, fuzzy
 msgid "MailmanSubForm_help_mmCaptcha"
 msgstr ""
-"Crea un form che può essere usato per richiedere di essere iscritto o "
-"cancellato da una lista Mailman. Attualmente l'iscrizione o cancellazione "
-"viene gestita mandando una mail all'indirizzo della lista."
+"Volete utilizzare un’immagine di controllo per proteggere la mailing-list "
+"dai robot? (È necessario il package collective.captcha)"
 
 #.
 #. Orginal text:
@@ -110,9 +108,8 @@ msgstr ""
 #. Orginal text:
 #. Use captcha
 #: file:MailmanSubForm/MailmanSubForm.py
-#, fuzzy
 msgid "MailmanSubForm_label_mmCaptcha"
-msgstr "Form di iscrizione/cancellazione dalla Mailman List"
+msgstr "Utilizzare un’immagine di controllo (captcha)"
 
 #.
 #. Orginal text:
@@ -200,7 +197,7 @@ msgstr ""
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:21
 msgid "You did not correctly enter the captcha."
-msgstr ""
+msgstr "I dati di controllo non corrispondono all’immagine."
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:34
 msgid "You did not enter a name."
@@ -232,6 +229,9 @@ msgstr "Cancella la mia iscrizione"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:121
 msgid "help_captcha"
 msgstr ""
+"Digitare i caratteri che appaiono nell’immagine. In questo modo ci aiutate "
+"ad impedire a dei robot di creare dei conti e di generare dei messaggi "
+"indesiderati."
 
 #. Default: "Enter an e-mail address. This is the address which will receive list mailings."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
@@ -263,7 +263,6 @@ msgstr "Ti identifica al manager della lista."
 #. Default: "Description"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:21
-#, fuzzy
 msgid "label_description"
 msgstr "Gestisci l'iscrizione"
 
@@ -336,7 +335,6 @@ msgstr "Iscriviti"
 
 #. Default: "\"From\" for confirmation requests"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:247
-#, fuzzy
 msgid "text_from_for_confirmation"
 msgstr "La tua conferma è obbligatoria per ..."
 
@@ -363,7 +361,6 @@ msgstr "Per favore, presta attenzione:"
 #. Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:266
-#, fuzzy
 msgid "text_please_note_if_you_are_having_trouble_unsubscribing"
 msgstr ""
 "Se stai incontrando problemi nell'iscriverti, manda un'email "
@@ -471,13 +468,11 @@ msgstr "Potrai aver bisogno di aggiungere il mittente alla tua rubrica."
 
 #. Default: "Your confirmation is required to join the ${listname} mailing list"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:218
-#, fuzzy
 msgid "text_your_confirmation_is_required_to_join"
 msgstr "La tua conferma è obbligatoria per ..."
 
 #. Default: "Your confirmation is required to leave the ${listname} mailing list"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:221
-#, fuzzy
 msgid "text_your_confirmation_is_required_to_leave"
 msgstr "La tua conferma è obbligatoria per ..."
 

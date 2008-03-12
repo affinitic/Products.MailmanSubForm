@@ -1,10 +1,10 @@
-#Translation to German
+# Translation to German
 # Affinitic Sprl <info@affinitic.be>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: MailmanSubForm\n"
 "POT-Creation-Date: 2007-07-10 15:42+0000\n"
-"PO-Revision-Date: Wed Jun  6 10:28:22 2007\n"
+"PO-Revision-Date: 2008-03-12 12:21+0001\n"
 "Last-Translator: Affinitic Sprl <info@affinitic.be>\n"
 "Language-Team: <info@affinitic.be>\n"
 "MIME-Version: 1.0\n"
@@ -202,8 +202,6 @@ msgstr "Geben Sie die Buchstabenfolge ein, die auf dem Bild zu sehen ist. Sie he
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Enter an e-mail address. This is the address which will receive list mailings."
-#. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
-#. Default: "Enter an e-mail address. This is the address which will receive list mailings."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:60
 msgid "help_email_address"
@@ -247,8 +245,6 @@ msgstr "Haben Sie Schwierigkeiten bei der Abmeldung?"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "E-Mail Address"
-#. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
-#. Default: "E-Mail Address"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:56
 #: /skins/MailmanSubForm/mmSubForm_view.pt:137
@@ -459,7 +455,7 @@ msgstr "Ihre Bestätigung ist erforderlich, um die Direktwerbungsliste ${listnam
 #. Use captcha
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmCaptcha"
-msgstr "Ein Kontrollbild verwenden"
+msgstr "Ein Kontrollbild verwenden (captcha)"
 
 #: /skins/MailmanSubForm/mmSubForm_validate.py:21
 msgid "You did not correctly enter the captcha."

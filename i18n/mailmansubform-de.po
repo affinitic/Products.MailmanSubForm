@@ -1,4 +1,4 @@
-# Translation to German
+#Translation to German
 # Affinitic Sprl <info@affinitic.be>, 2008.
 msgid ""
 msgstr ""
@@ -11,28 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Language-Code: de\n"
-"Language-Name: German\n"
-"Preferred-Encodings: ascii latin1 utf-8\n"
 "Domain: mailmansubform\n"
+"Language-Code: de\n"
+"Language-Name: Deutsch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
 
 # The following are in vocabularies
 msgid "Confirm (subscriber must respond to test message)"
-msgstr ""
+msgstr "Bestätigen (der Abonnent muss die Testnachricht beantworten)"
 
 msgid "Confirm and approve"
-msgstr ""
-
-#.
-#. Orginal text:
-#. 
-#.                     Do you wish to use a captcha to protect mailing-list
-#.                     subscriptions from robots ?  (needs the collective.captcha
-#.                     package to work)
-#.                     
-#: file:MailmanSubForm/MailmanSubForm.py
-msgid "MailmanSubForm_help_mmCaptcha"
-msgstr ""
+msgstr "Bestätigen und zustimmen"
 
 #.
 #. Orginal text:
@@ -41,7 +31,7 @@ msgstr ""
 #.             
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_help_mmFullNameReq"
-msgstr ""
+msgstr "Verlangen oder wollen Sie die Namen der Abonnenten anfordern?"
 
 #.
 #. Orginal text:
@@ -53,7 +43,8 @@ msgstr ""
 #.                     
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_help_mmLabel"
-msgstr ""
+msgstr "Erstellt ein Formular, das verwendet werden kann, um anhand einer Mailman-Liste eine Abo-Anmeldung oder Abo-Abmeldung auszuprobieren."
+"Die eigentliche Abo-Anmeldung/Abo-Abmeldung erfolgt durch Zusendung einer E-Mail an die Adresse der Listenanforderung."
 
 #.
 #. Orginal text:
@@ -63,7 +54,7 @@ msgstr ""
 #.             
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_help_mmListIntro"
-msgstr ""
+msgstr "Dieser Text wird stets am Anfang des Abo-Anmelde-/Abo-Abmelde-Formulars angezeigt. Verwenden Sie ihn zur Präsentation Ihrer Liste."
 
 #.
 #. Orginal text:
@@ -72,7 +63,7 @@ msgstr ""
 #.                     
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_help_mmListName"
-msgstr ""
+msgstr "Der Name Ihre Mailman-Liste"
 
 #. Line 89, Column 10
 #.
@@ -83,7 +74,7 @@ msgstr ""
 #.                     
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_help_mmServer"
-msgstr ""
+msgstr "Der Hostname Ihres Mailman-Listen-Servers. Abo-Anmelde-/Abo-Abmeldeanträge werden an diesen Server gesandt."
 
 #.
 #. Orginal text:
@@ -93,117 +84,105 @@ msgstr ""
 #.                     
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_help_mmWebServer"
-msgstr ""
-
-#.
-#. Orginal text:
-#. Use captcha
-#: file:MailmanSubForm/MailmanSubForm.py
-msgid "MailmanSubForm_label_mmCaptcha"
-msgstr ""
+msgstr "Die Basis-URL Ihres Mailman-Listen-Servers. Es muss sich um die Webadresse handeln, die 'listinfo' in der Adresse der Informationsseite der Liste vorangeht."
 
 #.
 #. Orginal text:
 #. Subscriber Names
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmFullNameReq"
-msgstr ""
+msgstr "Namen der Abonnenten"
 
 #.
 #. Orginal text:
 #. Mailman List Subscribe/Unsubscribe Form
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmLabel"
-msgstr ""
+msgstr "Abo-Anmelde-/Abo-Abmelde-Formular der Mailman-Liste"
 
 #.
 #. Orginal text:
 #. List Introduction
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmListIntro"
-msgstr ""
+msgstr "Einführung zur Liste"
 
 #.
 #. Orginal text:
 #. List Name
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmListName"
-msgstr ""
+msgstr "Name der Liste"
 
 #.
 #. Orginal text:
 #. Mailman List Server
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmServer"
-msgstr ""
+msgstr "Mailman-Listen-Server"
 
 #.
 #. Orginal text:
 #. Mailman Web Server
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "MailmanSubForm_label_mmWebServer"
-msgstr ""
+msgstr "Mailman-Webserver"
 
 #.
 #. Orginal text:
 #. Not Requested
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "Not Requested"
-msgstr ""
+msgstr "Nicht angefordert"
 
 #.
 #. Orginal text:
 #. Optional
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "Optional"
-msgstr ""
+msgstr "Fakultativ"
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:47
+#: /skins/MailmanSubForm/mmSubForm_validate.py:40
 msgid "Please correct the indicated errors."
-msgstr ""
+msgstr "Korrigieren Sie die angezeigten Fehler."
 
 msgid "Require approval (but no confirm)"
-msgstr ""
+msgstr "Zustimmung erforderlich (aber ohne Bestätigung)"
 
 #.
 #. Orginal text:
 #. Required
 #: file:MailmanSubForm/MailmanSubForm.py
 msgid "Required"
-msgstr ""
+msgstr "Erforderlich"
 
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:42
 msgid "Subscription cancellation request entered for ${address}"
-msgstr ""
+msgstr "Abo-Abmeldeantrag erfasst für ${address}"
 
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:34
 msgid "Subscription request entered for ${address}"
-msgstr ""
+msgstr "Abo-Anmeldeantrag erfasst für ${address}"
 
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_action.py:70
 msgid "Unable to send mail: ${exception}"
-msgstr ""
+msgstr "Nachricht kann nicht gesendet werden: ${exception}"
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:21
-msgid "You did not correctly enter the captcha."
-msgstr ""
-
-#: /skins/MailmanSubForm/mmSubForm_validate.py:34
+#: /skins/MailmanSubForm/mmSubForm_validate.py:27
 msgid "You did not enter a name."
-msgstr ""
+msgstr "Sie haben keinen Namen eingegeben."
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:29
-#: /skins/MailmanSubForm/mmSubForm_validate.py:42
+#: /skins/MailmanSubForm/mmSubForm_validate.py:22
+#: /skins/MailmanSubForm/mmSubForm_validate.py:35
 msgid "You did not enter a valid e-mail address."
-msgstr ""
+msgstr "Sie haben keine gültige E-Mail-Adresse eingegeben."
 
-#: /skins/MailmanSubForm/mmSubForm_validate.py:31
-#: /skins/MailmanSubForm/mmSubForm_validate.py:44
+#: /skins/MailmanSubForm/mmSubForm_validate.py:24
+#: /skins/MailmanSubForm/mmSubForm_validate.py:37
 msgid "You did not enter an e-mail address."
-msgstr ""
+msgstr "Sie haben keine E-Mail-Adresse eingegeben."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
-# Default: "Cancel My Subscription"
 #. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
 #. Line 162, Column 22
 #.
@@ -212,22 +191,23 @@ msgstr ""
 #. #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 #. Default: "Cancel My Subscription"
 #: file:MailmanSubForm/skins/MailmanSubForm/mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:187
+#: /skins/MailmanSubForm/mmSubForm_view.pt:161
 msgid "cancel_action"
-msgstr ""
+msgstr "Mein Abonnement abmelden"
 
 #. Default: "Enter the exact word in the image. This is used to fight robots."
 #: /skins/MailmanSubForm/mmSubForm_view.pt:121
 msgid "help_captcha"
-msgstr ""
+msgstr "Geben Sie die Buchstabenfolge ein, die auf dem Bild zu sehen ist. Sie helfen uns damit, Suchroboter davon abzuhalten, Konten anzulegen und Spam zu generieren."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Enter an e-mail address. This is the address which will receive list mailings."
+#. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "Enter an e-mail address. This is the address which will receive list mailings."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:60
 msgid "help_email_address"
-msgstr ""
+msgstr "Geben Sie eine E-Mail-Adresse ein. Es handelt sich um die Adresse, an die die Mailings der Liste gesandt werden."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: ""
@@ -240,271 +220,248 @@ msgstr ""
 #.  "Enter the e-mail address under which you are currently subscribed. Note that this\n"
 #.  "                  address will need to exactly match the list database entry."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:167
+#: /skins/MailmanSubForm/mmSubForm_view.pt:141
 msgid "help_unsubscribe_email_address"
-msgstr ""
+msgstr "Geben Sie die E-Mail-Adresse ein, mit der Sie aktuell abonniert sind. Beachten Sie bitte, dass diese Adresse genau mit dem Eintrag in der Datenliste der Liste übereinstimmen muss."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Identifies you to the list manager."
-#. Default: "Identifies you to the list manager."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:88
 msgid "help_your_name"
-msgstr ""
+msgstr "Als Listenverwalter ausweisen"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Description"
-#. Default: "Description"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:21
 msgid "label_description"
-msgstr ""
+msgstr "Beschreibung"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
-# Default: "Difficulties Cancelling?"
 #. Default: "Difficulties Cancelling?"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:260
+#: /skins/MailmanSubForm/mmSubForm_view.pt:234
 msgid "label_difficulties_cancelling"
-msgstr ""
+msgstr "Haben Sie Schwierigkeiten bei der Abmeldung?"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "E-Mail Address"
+#. #-#-#-#-#  generated.pot (MailmanSubForm 0.4)  #-#-#-#-#
 #. Default: "E-Mail Address"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:56
-#: /skins/MailmanSubForm/mmSubForm_view.pt:163
+#: /skins/MailmanSubForm/mmSubForm_view.pt:137
 msgid "label_email_address"
-msgstr ""
+msgstr "E-Mail-Adresse"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "If you don't receive a confirmation request e-mail"
-#. Default: "If you don't receive a confirmation request e-mail"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:238
+#: /skins/MailmanSubForm/mmSubForm_view.pt:212
 msgid "label_if_you_dont_receive_a_confirmation_request_email"
-msgstr ""
+msgstr "Wenn Sie keine E-Mail mit Bestätigungsaufforderung erhalten"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "List Server Addresses"
-#. Default: "List Server Addresses"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:243
+#: /skins/MailmanSubForm/mmSubForm_view.pt:217
 msgid "label_list_server_addresses"
-msgstr ""
+msgstr "Adressen des Listenservers"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "List Subscribe"
-#. Default: "List Subscribe"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:49
 msgid "label_list_subscribe"
-msgstr ""
+msgstr "Zur Liste anmelden"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "List Unsubscribe"
-#. Default: "List Unsubscribe"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:156
+#: /skins/MailmanSubForm/mmSubForm_view.pt:130
 msgid "label_list_unsubscribe"
-msgstr ""
+msgstr "Von der Liste abmelden"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Managing your subscription"
-#. Default: "Managing your subscription"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:202
-#: /skins/MailmanSubForm/mmSubForm_view.pt:251
+#: /skins/MailmanSubForm/mmSubForm_view.pt:176
+#: /skins/MailmanSubForm/mmSubForm_view.pt:225
 msgid "label_managing_your_subscription"
-msgstr ""
+msgstr "Ihre Abo-Verwaltung"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Your Name"
-#. Default: "Your Name"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:84
 msgid "label_your_name"
-msgstr ""
+msgstr "Ihr Name"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "This item does not have any introductory text, click the edit tab to change it."
-#. Default: "This item does not have any introductory text, click the edit tab to change it."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:27
 msgid "no_body_text"
-msgstr ""
+msgstr "Dieses Element weist keinen Einleitungstext auf. Klicken Sie auf den Bearbeitungsreiter, um es zu ändern."
 
-# #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
-# Default: "Subscribe"
-#. #-#-#-#-#  generated.pot (MailmanSubForm 0.5)  #-#-#-#-#
-#. Orginal text:
-#. Subscribe
 #. #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 #. Default: "Subscribe"
 #: /skins/MailmanSubForm/mmSubForm_view.pt:134
 msgid "subscribe_action"
-msgstr ""
+msgstr "Abonnieren"
 
 # Default: "\"From\" for confirmation requests"
-#. Default: "\"From\" for confirmation requests"
-#: /skins/MailmanSubForm/mmSubForm_view.pt:247
+#: /skins/MailmanSubForm/mmSubForm_view.pt:221
 msgid "text_from_for_confirmation"
-msgstr ""
+msgstr "\"From\" für Bestätigungsaufforderungen"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "If you have a list subscription, you may manage it by visiting:"
-#. Default: "If you have a list subscription, you may manage it by visiting:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:203
+#: /skins/MailmanSubForm/mmSubForm_view.pt:177
 msgid "text_if_you_have_list_subscription"
-msgstr ""
+msgstr "Wenn Sie ein Abonnement auf einer Liste haben, können Sie es über folgende Webseite verwalten:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
-#. Default: "Once the subscription process has been complete, you may manage your subscription by visiting:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:252
+#: /skins/MailmanSubForm/mmSubForm_view.pt:226
 msgid "text_manage_visit_link"
-msgstr ""
+msgstr "Nach Abschluss des Abonnementprozesses können Sie Ihr Abonnement über folgende Webseite verwalten:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Please Note:"
-#. Default: "Please Note:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:208
+#: /skins/MailmanSubForm/mmSubForm_view.pt:182
 msgid "text_please_note"
-msgstr ""
+msgstr "Bitte beachten:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
-#. Default: "<strong>Please Note:</strong> If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:266
+#: /skins/MailmanSubForm/mmSubForm_view.pt:240
 msgid "text_please_note_if_you_are_having_trouble_unsubscribing"
-msgstr ""
+msgstr "<strong>Bitte beachten:</strong> Wenn Sie Schwierigkeiten bei der Abo-Abmeldung haben, schicken Sie bitte eine Nachricht an den Listenverwalter. Bitte kennzeichnen Sie unsere Listenmailings nicht als Spam und bitten Sie Ihren Internetprovider nicht, die Nachrichten der Liste zu blockieren. Dies könnte dazu führen, dass wir anderen Abonnenten keine Nachrichten mehr zusenden können."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Reply to the message, following its instructions; or,"
-#. Default: "Reply to the message, following its instructions; or,"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:227
+#: /skins/MailmanSubForm/mmSubForm_view.pt:201
 msgid "text_reply_to_the_message"
-msgstr ""
+msgstr "Nachricht anhand folgender Anweisungen beantworten; oder"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Required for subscription approval."
-#. Default: "Required for subscription approval."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
 #: /skins/MailmanSubForm/mmSubForm_view.pt:90
 msgid "text_required_for_subscription_approval"
-msgstr ""
+msgstr "Erforderlich für die Zustimmung zum Abonnement"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "\"Sender\" for list mail"
-#. Default: "\"Sender\" for list mail"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:245
+#: /skins/MailmanSubForm/mmSubForm_view.pt:219
 msgid "text_sender_for_list_mail"
-msgstr ""
+msgstr "\"Sender\" der Nachrichten auf der Liste"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
-#. Default: "The confirmation request message may have been intercepted by a SPAM filter. Check your junk mail folder (if you have one) to see if the request ended up there."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:239
+#: /skins/MailmanSubForm/mmSubForm_view.pt:213
 msgid "text_the_confirmation_request_message"
-msgstr ""
+msgstr "Die Nachricht mit der Bestätigungsaufforderung wurde möglicherweise von einem Anti-Spam-Filter abgefangen. Überprüfen Sie, ob sie sich eventuell in einem Ordner für Spam befindet."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
-#. Default: "This step is used to confirm that the subscription cancellation request was made with the authorization of the address owner."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:233
+#: /skins/MailmanSubForm/mmSubForm_view.pt:207
 msgid "text_this_step_is_used_to_confirm_cancel"
-msgstr ""
+msgstr "Mit diesem Schritt wird bestätigt, dass der Abo-Abmeldeantrag mit Zustimmung des Adresseneigentümers gestellt wurde."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
-#. Default: "This step is used to confirm that the subscription request was made with the authorization of the address owner."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:230
+#: /skins/MailmanSubForm/mmSubForm_view.pt:204
 msgid "text_this_step_is_used_to_confirm_subscribe"
-msgstr ""
+msgstr "Mit diesem Schritt wird bestätigt, dass der Abo-Anmeldeantrag mit Zustimmung des Adresseneigentümers gestellt wurde."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "To complete your subscription cancellation request, you must either:"
-#. Default: "To complete your subscription cancellation request, you must either:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:225
+#: /skins/MailmanSubForm/mmSubForm_view.pt:199
 msgid "text_to_complete_your_cancellation"
-msgstr ""
+msgstr "Um Ihren Abo-Abmeldeantrag abzuschließen, müssen Sie eine der beiden folgenden Operationen ausführen:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "To complete your subscription request, you must either:"
-#. Default: "To complete your subscription request, you must either:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:224
+#: /skins/MailmanSubForm/mmSubForm_view.pt:198
 msgid "text_to_complete_your_subscription"
-msgstr ""
+msgstr "Um Ihren Abo-Anmeldeantrag abzuschließen, müssen Sie eine der beiden folgenden Operationen ausführen:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
-#. Default: "If you're having trouble unsubscribing, send a message to the list manager. Please do not ever report our list mailings as SPAM or request your ISP to block list mail. That may endanger our ability to send mail to other subscribers."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:208
+#: /skins/MailmanSubForm/mmSubForm_view.pt:182
 msgid "text_trouble_unsubscribing"
-msgstr ""
+msgstr "Wenn Sie Schwierigkeiten bei der Abo-Abmeldung haben, schicken Sie bitte eine Nachricht an den Listenverwalter. Bitte kennzeichnen Sie unsere Listenmailings nicht als Spam und bitten Sie Ihren Internetprovider nicht, die Nachrichten der Liste zu blockieren. Dies könnte dazu führen, dass wir anderen Abonnenten keine Nachrichten mehr zusenden können."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Visit the web page specified in the message."
-#. Default: "Visit the web page specified in the message."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:228
+#: /skins/MailmanSubForm/mmSubForm_view.pt:202
 msgid "text_visit_the_web_page"
-msgstr ""
+msgstr "Suchen Sie die Webseite auf, die in der Nachricht angegeben ist."
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
-#. Default: "Within the next few minutes you should receive an e-mail message with a subject line like:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:214
+#: /skins/MailmanSubForm/mmSubForm_view.pt:188
 msgid "text_within_the_next_few_minutes"
-msgstr ""
+msgstr "In den nächsten Minuten sollten Sie eine Nachricht erhalten, deren Betreff in etwa wie folgt aussieht:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "You may also cancel your subscription by visiting:"
-#. Default: "You may also cancel your subscription by visiting:"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:261
+#: /skins/MailmanSubForm/mmSubForm_view.pt:235
 msgid "text_you_may_also_cancel_subscription_by_visiting"
-msgstr ""
+msgstr "Sie können Ihr Abonnement auf der folgenden Webseite abmelden:"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "You may also e-mail the list manager at"
-#. Default: "You may also e-mail the list manager at"
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:207
-#: /skins/MailmanSubForm/mmSubForm_view.pt:256
-#: /skins/MailmanSubForm/mmSubForm_view.pt:265
+#: /skins/MailmanSubForm/mmSubForm_view.pt:181
+#: /skins/MailmanSubForm/mmSubForm_view.pt:230
+#: /skins/MailmanSubForm/mmSubForm_view.pt:239
 msgid "text_you_may_also_email_the_list_manager_at"
-msgstr ""
+msgstr "Sie können auch eine Nachricht an den Listenverwalter senden unter der Adresse"
 
 # #-#-#-#-#  mailmansubform.pot (0.5 (svn/unreleased))  #-#-#-#-#
 # Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
-#. Default: "You may need to add the list <em>sender</em> or <em>from</em> addresses to your address book or other OK list."
 #: MailmanSubForm\skins\MailmanSubForm\mmSubForm_view.pt
-#: /skins/MailmanSubForm/mmSubForm_view.pt:242
+#: /skins/MailmanSubForm/mmSubForm_view.pt:216
 msgid "text_you_may_need_to_add_the_list"
-msgstr ""
+msgstr "Möglicherweise müssen Sie die Adressen <em>Absender</em> oder <em>de</em> der Liste in Ihr Adressbuch oder in etwaige andere E-Mailannahmelisten einfügen"
 
 # Default: "Your confirmation is required to join the ${listname} mailing list"
-#. Default: "Your confirmation is required to join the ${listname} mailing list"
-#: /skins/MailmanSubForm/mmSubForm_view.pt:218
+#: /skins/MailmanSubForm/mmSubForm_view.pt:192
 msgid "text_your_confirmation_is_required_to_join"
-msgstr ""
+msgstr "Ihre Bestätigung ist erforderlich, um zur Direktwerbungsliste ${listname} zu gelangen"
 
 # Default: "Your confirmation is required to leave the ${listname} mailing list"
-#. Default: "Your confirmation is required to leave the ${listname} mailing list"
-#: /skins/MailmanSubForm/mmSubForm_view.pt:221
+#: /skins/MailmanSubForm/mmSubForm_view.pt:195
 msgid "text_your_confirmation_is_required_to_leave"
-msgstr ""
+msgstr "Ihre Bestätigung ist erforderlich, um die Direktwerbungsliste ${listname} zu verlassen"
+
+#.
+#. Orginal text:
+#. Use captcha
+#: file:MailmanSubForm/MailmanSubForm.py
+msgid "MailmanSubForm_label_mmCaptcha"
+msgstr "Ein Kontrollbild verwenden"
+
+#: /skins/MailmanSubForm/mmSubForm_validate.py:21
+msgid "You did not correctly enter the captcha."
+msgstr "Die Kontrolldaten entsprechen nicht denen auf dem Bild."
+

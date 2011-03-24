@@ -1,5 +1,7 @@
 0.5 (svn/unreleased):
 
+- Add Plone 4.0 compatibility
+
 - Add Plone 3.0 compatibility
 
 - Make MailmanSubForm content type translatable (if LinguaPlone is installed)

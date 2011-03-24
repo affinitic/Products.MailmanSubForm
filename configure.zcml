@@ -1,6 +1,28 @@
 <configure xmlns="http://namespaces.zope.org/zope"
            xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           xmlns:cmf="http://namespaces.zope.org/cmf"
            xmlns:five="http://namespaces.zope.org/five">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="MailmanSubForm"
+      directory="profiles/default"
+      description='Extension profile for the MailmanSubForm.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="MailmanSubForm.various"
+      title="MailmanSubForm: miscellaneous import steps"
+      description=""
+      handler="Products.MailmanSubForm.setuphandlers.install">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+  <cmf:registerDirectory name="MailmanSubForm"/>
 
   <include package=".browser" />
 

@@ -1,26 +1,14 @@
 from AccessControl import allow_module
-from Globals import package_home
-from Products.CMFCore import utils, DirectoryView
+from Products.CMFCore import utils
 from Products.Archetypes.public import *
 from Products.Archetypes import listTypes
-from Products.Archetypes.utils import capitalize
 
-try: # New CMF
-    from Products.CMFCore import permissions as CMFCorePermissions
-    from Products.CMFPlone.utils import ToolInit
-except: # Old CMF
-    from Products.CMFCore import CMFCorePermissions
-    from Products.CMFPlone.PloneUtilities import ToolInit
+from Products.CMFCore import permissions as CMFCorePermissions
+from Products.CMFPlone.utils import ToolInit
 
 
 # Get configuration data, permissions
 from Products.MailmanSubForm.config import *
-
-# Register skin directories so they can be added to portal_skins
-skin_globals=globals()
-DirectoryView.registerDirectory('skins', skin_globals)
-DirectoryView.registerDirectory('skins/MailmanSubForm', skin_globals)
-
 from zope.i18nmessageid import MessageFactory
 MailmanSubFormMessage = MessageFactory("mailmansubform")
 

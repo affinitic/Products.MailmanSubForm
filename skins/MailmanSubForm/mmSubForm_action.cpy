@@ -25,9 +25,11 @@ site_properties = getToolByName(context, 'portal_properties').site_properties
 
 if REQUEST.has_key('subscribe'):
     rn = REQUEST.get('realname', None)
+    rn = unicode(rn, 'utf-8')
     ea = REQUEST.get('subemail', '')
+    ea = unicode(ea, 'utf-8')
     if rn:
-      send_from_address = '"%s" <%s>' % (rn.strip().replace('"',''), ea.strip())
+      send_from_address = u'"%s" <%s>' % (rn.strip().replace('"',''), ea.strip())
     else:
       send_from_address = ea
     message = 'subscribe'
@@ -56,12 +58,12 @@ send_to_address = send_to_address.encode('utf-8')
 state.set(status=state_success) ## until proven otherwise
 
 host = context.MailHost
-#encoding = plone_utils.getSiteEncoding()
+encoding = plone_utils.getSiteEncoding()
 # above will cause secureSend to use base64 encoding, which Mailman won't comprehend
-encoding = 'us-ascii'
+#encoding = 'us-ascii'
 
 try:
-    result = host.secureSend(message, send_to_address, envelope_from, subject=subject, subtype='plain', charset=encoding, debug=False, From=send_from_address)
+    result = host.send(message, send_to_address, envelope_from, subject=subject, charset=encoding)
     # pass # we're testing
 except ConflictError:
     raise

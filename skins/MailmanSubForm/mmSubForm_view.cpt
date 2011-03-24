@@ -7,14 +7,13 @@
 <div metal:fill-slot="main" tal:define="errors options/state/getErrors; text python: here.getMmListIntro()"
       i18n:domain="mailmansubform">
 
-    <div metal:use-macro="here/document_actions/macros/document_actions">
-        Document actions (print, sendto etc)
-    </div>
+    <div tal:replace="structure provider:plone.abovecontenttitle" />
 
-    <h1 tal:content="object_title" class="documentFirstHeading">
+    <h1 tal:content="context/Title" class="documentFirstHeading">
       Title or id
     </h1>
 
+    <div tal:replace="structure provider:plone.belowcontenttitle" />
     <tal:block condition="python: not (request.get('subscribed') or (request.get('unsubscribed')))">
 
       <tal:block condition="python: not (request.get('unsubscribe') or request.get('subscribe'))">
@@ -69,8 +68,7 @@
                          size="30"
                          value=""
                          tabindex=""
-                         tal:attributes="value subemail;
-                                         tabindex tabindex/next;"
+                         tal:attributes="value subemail"
                          />
   
               </div>
@@ -97,9 +95,7 @@
                          name="realname"
                          size="30"
                          value=""
-                         tabindex=""
-                         tal:attributes="value realname;
-                                         tabindex tabindex/next;"
+                         tal:attributes="value realname"
                          />
   
               </div>
@@ -132,12 +128,11 @@
 
               <div class="formControls"> 
                       <input class="context" 
-                             tabindex=""
                              type="submit" 
                              name="form.button.subscribe" 
                              value="Subscribe" 
                              i18n:attributes="value subscribe_action"
-                             tal:attributes="tabindex tabindex/next;" /> 
+                             /> 
               </div>
           </fieldset>
   
@@ -176,21 +171,17 @@
                          name="unsubemail"
                          size="30"
                          value=""
-                         tabindex=""
-                         tal:attributes="value unsubemail;
-                                         tabindex tabindex/next;"
+                         tal:attributes="value unsubemail"
                          />
   
               </div>
   
               <div class="formControls"> 
                       <input class="context" 
-                             tabindex=""
                              type="submit" 
                              name="form.button.unsubscribe" 
                              value="Cancel My Subscription"
-                             i18n:attributes="value cancel_action"
-                             tal:attributes="tabindex tabindex/next;" /> 
+                             i18n:attributes="value cancel_action"/>
               </div>
           </fieldset>
   

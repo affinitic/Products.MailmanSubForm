@@ -24,4 +24,4 @@ Captcha feature (contact: laurent.lasudry@affinitic.be)
 
 
 Originally tested with Mailman 2.1.5, Plone 2.1.2 and Archetypes 1.3.7-final.
-Now tested with Plone 2.5.4 and Plone 3.
+Now tested with Plone 2.5.4, Plone 3 and Plone 4.

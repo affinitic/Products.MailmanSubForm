@@ -1,0 +1,11 @@
+recursive-include src *.cpt
+recursive-include src *.cpy
+recursive-include src *.metadata
+recursive-include src *.png
+recursive-include src *.po
+recursive-include src *.pot
+recursive-include src *.sh
+recursive-include src *.txt
+recursive-include src *.vpy
+recursive-include src *.xml
+recursive-include src *.zcml
